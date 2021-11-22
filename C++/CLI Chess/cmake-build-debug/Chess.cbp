@@ -112,6 +112,12 @@
 		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Knight.h">
 			<Option target="Chess"/>
 		</Unit>
+		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Parser.cpp">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Parser.h">
+			<Option target="Chess"/>
+		</Unit>
 		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Pawn.cpp">
 			<Option target="Chess"/>
 		</Unit>

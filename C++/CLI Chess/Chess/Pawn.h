@@ -12,7 +12,7 @@ class Pawn : public Piece {
 
 public:
     Pawn(int posistionX, int posistionY, string type, string color);
-
+    void move();
 };
 
 

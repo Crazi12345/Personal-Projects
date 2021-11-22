@@ -1,8 +1,10 @@
 #include <iostream>
 #include "Game.h"
-
+#include "Board.h"
 int main() {
+
   Game g;
-  g.Play();
+
+  g.Setup();
     return 0;
 }

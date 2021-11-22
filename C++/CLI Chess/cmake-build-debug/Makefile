@@ -248,6 +248,30 @@ Chess/Knight.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/Chess/Knight.cpp.s
 .PHONY : Chess/Knight.cpp.s
 
+Chess/Parser.obj: Chess/Parser.cpp.obj
+.PHONY : Chess/Parser.obj
+
+# target to build an object file
+Chess/Parser.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/Chess/Parser.cpp.obj
+.PHONY : Chess/Parser.cpp.obj
+
+Chess/Parser.i: Chess/Parser.cpp.i
+.PHONY : Chess/Parser.i
+
+# target to preprocess a source file
+Chess/Parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/Chess/Parser.cpp.i
+.PHONY : Chess/Parser.cpp.i
+
+Chess/Parser.s: Chess/Parser.cpp.s
+.PHONY : Chess/Parser.s
+
+# target to generate assembly for a file
+Chess/Parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/Chess/Parser.cpp.s
+.PHONY : Chess/Parser.cpp.s
+
 Chess/Pawn.obj: Chess/Pawn.cpp.obj
 .PHONY : Chess/Pawn.obj
 
@@ -392,6 +416,9 @@ help:
 	@echo ... Chess/Knight.obj
 	@echo ... Chess/Knight.i
 	@echo ... Chess/Knight.s
+	@echo ... Chess/Parser.obj
+	@echo ... Chess/Parser.i
+	@echo ... Chess/Parser.s
 	@echo ... Chess/Pawn.obj
 	@echo ... Chess/Pawn.i
 	@echo ... Chess/Pawn.s

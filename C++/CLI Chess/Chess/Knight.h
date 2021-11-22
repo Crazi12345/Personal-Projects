@@ -10,6 +10,8 @@ class Knight: public Piece{
 public:
 
     Knight(int posistionX, int posistionY, string type, string color);
+
+    void move();
 };
 
 

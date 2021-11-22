@@ -11,6 +11,8 @@ class Rook: public Piece {
 
 public:
     Rook(int posistionX, int posistionY, string type, string color);
+
+    void move();
 };
 
 

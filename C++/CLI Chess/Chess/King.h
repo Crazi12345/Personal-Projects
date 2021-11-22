@@ -12,6 +12,7 @@ class King: public Piece{
 public:
     King(int posistionX, int posistionY, string type, string color);
 
+    void move();
 };
 
 

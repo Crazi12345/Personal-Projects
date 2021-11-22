@@ -4,7 +4,6 @@
 
 #include "Board.h"
 #include <iostream>
-#include "Piece.h"
 using namespace std;
 
 
@@ -24,7 +23,7 @@ void Board::PrettyPrint() {
         for (int j = 0; j < 8; j++) {
             cout << board[i][j]<<"  ";
         }
-        cout << "  " << i + 1 << '\n' << endl;
+        cout << "  " << 8-i << '\n' << endl;
     }
     string letters = "abcdefgh";
     cout << "  ";

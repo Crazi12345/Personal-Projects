@@ -14,7 +14,7 @@ public:
     string getName();
     int getPosistionX();
     int getPosistionY();
-    void move();
+    virtual void move();
 
 
 

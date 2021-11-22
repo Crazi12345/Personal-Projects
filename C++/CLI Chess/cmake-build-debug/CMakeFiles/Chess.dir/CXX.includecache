@@ -6,115 +6,23 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Bishop.cpp
-Bishop.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Bishop.h
-
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Bishop.h
-Piece.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Piece.h
-
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Board.cpp
-Board.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Board.h
-iostream
--
-Piece.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Piece.h
-
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Board.h
+C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Parser.cpp
+Parser.h
+C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Parser.h
 string
 -
-Piece.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Piece.h
-
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Game.cpp
-Game.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Game.h
-Board.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Board.h
-Piece.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Piece.h
-Pawn.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Pawn.h
-Queen.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Queen.h
-Knight.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Knight.h
-Bishop.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Bishop.h
-King.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/King.h
 iostream
 -
-Rook.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Rook.h
-vector
+sstream
+-
+unistd.h
+-
+limits
 -
 
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Game.h
-vector
--
-Board.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Board.h
-
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/King.cpp
-King.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/King.h
-
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/King.h
-Piece.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Piece.h
-
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Knight.cpp
-Knight.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Knight.h
-
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Knight.h
-Piece.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Piece.h
-
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Pawn.cpp
-Pawn.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Pawn.h
-
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Pawn.h
-Piece.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Piece.h
-
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Piece.cpp
-iostream
--
-Piece.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Piece.h
-Board.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Board.h
-
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Piece.h
-Board.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Board.h
+C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Parser.h
 string
 -
-
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Queen.cpp
-Queen.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Queen.h
-
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Queen.h
-Piece.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Piece.h
-
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Rook.cpp
-Rook.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Rook.h
-
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Rook.h
-Piece.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Piece.h
-
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/main.cpp
-iostream
+vector
 -
-Game.h
-C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Game.h
 

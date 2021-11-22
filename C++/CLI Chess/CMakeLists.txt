@@ -24,4 +24,4 @@ add_executable(Chess
         Chess/Queen.cpp
         Chess/Queen.h
         Chess/Rook.cpp
-        Chess/Rook.h)
+        Chess/Rook.h Chess/Parser.cpp Chess/Parser.h)

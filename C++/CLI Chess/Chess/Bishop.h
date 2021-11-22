@@ -11,6 +11,7 @@
 class Bishop: public Piece {
 public:
     Bishop(int posistionX, int posistionY, string type, string color);
+    void move();
 };
 
 

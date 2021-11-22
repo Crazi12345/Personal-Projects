@@ -23,6 +23,7 @@ string Piece::getName() {
 
 }
 
+void Piece::move() {}
 int Piece::getPosistionX() {
     return positionX;
 }

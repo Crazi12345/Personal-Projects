@@ -5,19 +5,33 @@
 #pragma once
 #include <vector>
 #include "Board.h"
+#include "Parser.h"
 class Game
 {
 
 
 public:
+
     Game();
-    void Play();
+    void Setup();
 
 
 private:
-    void CreatePieces(Board& b);
-    void PlacePieces(Board& b);
+   bool isFinished = false;
+   bool isFirst = true;
     std::vector<Piece> whitePieces;
     std::vector<Piece> blackPieces;
+    Board board;
+
+
+protected:
+    void Play();
+    void move();
+    void CreatePieces(Board& b);
+    void PlacePieces(Board& b);
+    Parser parser;
+
+
+
 };
 

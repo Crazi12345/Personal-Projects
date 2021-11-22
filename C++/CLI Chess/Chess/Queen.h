@@ -11,6 +11,8 @@
 class Queen : public Piece{
 public:
         Queen(int posistionX, int posistionY, string type, string color);
+
+    void move();
 };
 
 

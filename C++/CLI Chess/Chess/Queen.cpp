@@ -6,3 +6,7 @@
 Queen::Queen(int posistionX, int posistionY, string type, string color) : Piece(posistionX, posistionY, type, color) {
 
 }
+
+void Queen::move() {
+
+}

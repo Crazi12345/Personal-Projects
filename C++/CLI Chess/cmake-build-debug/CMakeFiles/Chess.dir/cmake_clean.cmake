@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Chess.dir/Chess/Game.cpp.obj"
   "CMakeFiles/Chess.dir/Chess/King.cpp.obj"
   "CMakeFiles/Chess.dir/Chess/Knight.cpp.obj"
+  "CMakeFiles/Chess.dir/Chess/Parser.cpp.obj"
   "CMakeFiles/Chess.dir/Chess/Pawn.cpp.obj"
   "CMakeFiles/Chess.dir/Chess/Piece.cpp.obj"
   "CMakeFiles/Chess.dir/Chess/Queen.cpp.obj"

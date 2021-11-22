@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Game.cpp" "C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/Chess/Game.cpp.obj"
   "C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/King.cpp" "C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/Chess/King.cpp.obj"
   "C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Knight.cpp" "C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/Chess/Knight.cpp.obj"
+  "C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Parser.cpp" "C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/Chess/Parser.cpp.obj"
   "C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Pawn.cpp" "C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/Chess/Pawn.cpp.obj"
   "C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Piece.cpp" "C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/Chess/Piece.cpp.obj"
   "C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Queen.cpp" "C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/Chess/Queen.cpp.obj"
