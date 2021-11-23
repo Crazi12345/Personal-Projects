@@ -17,6 +17,7 @@ CMakeFiles/Chess.dir/Chess/Game.cpp.obj: \
  ../Chess/Game.h \
  ../Chess/King.h \
  ../Chess/Knight.h \
+ ../Chess/Parser.h \
  ../Chess/Pawn.h \
  ../Chess/Piece.h \
  ../Chess/Queen.h \
@@ -31,6 +32,9 @@ CMakeFiles/Chess.dir/Chess/Knight.cpp.obj: \
  ../Chess/Knight.cpp \
  ../Chess/Knight.h \
  ../Chess/Piece.h
+CMakeFiles/Chess.dir/Chess/Parser.cpp.obj: \
+ ../Chess/Parser.cpp \
+ ../Chess/Parser.h
 CMakeFiles/Chess.dir/Chess/Pawn.cpp.obj: \
  ../Chess/Board.h \
  ../Chess/Pawn.cpp \
@@ -53,5 +57,6 @@ CMakeFiles/Chess.dir/Chess/Rook.cpp.obj: \
 CMakeFiles/Chess.dir/Chess/main.cpp.obj: \
  ../Chess/Board.h \
  ../Chess/Game.h \
+ ../Chess/Parser.h \
  ../Chess/Piece.h \
  ../Chess/main.cpp

@@ -18,14 +18,28 @@ Parser::Parser() {
 
 void Parser::Command() {
     words.clear();
-    string wordOne;
-    string wordTwo;
-    string wordThree;
-    cin >> wordOne >> wordTwo;
-    cin.clear();
-    cin.ignore(std::numeric_limits<std::streamsize>::max(),'\n');
-    cout << wordOne << wordTwo;
+    string command;
+    int index = 0;
+    getline(cin,command);
+   // cout << command;
+   string token;
+   stringstream checker(command);
+
+   while(getline(checker,token,' ')){
+       words.push_back(token);
+   }
 usleep(150000);
+
 
 }
 
+std::string Parser::getFullWord() {
+    return wordOne+wordTwo+wordThree;
+}
+
+void Parser::printWord() {
+
+    for(int i = 0; i<words.size();i++){
+        cout << words.at(i) << endl;
+    }
+}

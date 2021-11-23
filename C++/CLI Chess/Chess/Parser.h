@@ -17,10 +17,14 @@ public:
     std::string getWordTwo();
     std::string getWordThree();
     std::string getFullWord();
+    void printWord();
 
 private:
     std::vector<std::string> words;
     int indexForCommand=0;
+    std::string wordOne;
+    std::string wordTwo;
+    std::string wordThree;
 
 
 };

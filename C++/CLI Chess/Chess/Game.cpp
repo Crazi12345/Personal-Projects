@@ -14,7 +14,7 @@
 #include "Rook.h"
 #include <vector>
 #include <string>
-
+#include <unistd.h>
 
 using namespace std;
 
@@ -41,10 +41,10 @@ void Game::Play() {
     cout << "'\n'Please Input a Command:";
 
     parser.Command();
-    //usleep(1500000);
+    usleep(1000000);
+    //cout <<"here:"<< parser.getFullWord();
+   parser.printWord();
     cin.get();
-
-
 
     Play();
 

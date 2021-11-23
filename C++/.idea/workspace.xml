@@ -12,52 +12,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c27b004d-b50e-4da4-a53a-4150fa32e1e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CLI Chess/Chess/Parser.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLI Chess/Chess/Parser.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/Chess/Bishop.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/Chess/Bishop.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/Chess/Bishop.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/Chess/Bishop.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/Chess/Board.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/Chess/Board.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CLI Chess/Chess/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/Chess/Game.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/Chess/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/Chess/Game.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/Chess/King.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/Chess/King.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/Chess/King.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/Chess/King.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/Chess/Knight.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/Chess/Knight.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/Chess/Knight.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/Chess/Knight.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/Chess/Pawn.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/Chess/Pawn.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/Chess/Pawn.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/Chess/Pawn.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/Chess/Piece.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/Chess/Piece.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/Chess/Piece.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/Chess/Piece.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/Chess/Queen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/Chess/Queen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/Chess/Queen.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/Chess/Queen.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/Chess/Rook.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/Chess/Rook.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/Chess/Rook.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/Chess/Rook.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/Chess/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/Chess/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/Chess/Bishop.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/Chess/Bishop.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/Chess/Board.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/Chess/Board.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLI Chess/Chess/Parser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/Chess/Parser.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLI Chess/Chess/Parser.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/Chess/Parser.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/Chess/Game.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/Chess/Game.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/Chess/King.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/Chess/King.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/Chess/Knight.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/Chess/Knight.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/Chess/Pawn.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/Chess/Pawn.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/Chess/Piece.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/Chess/Piece.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/Chess/Queen.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/Chess/Queen.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/Chess/Rook.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/Chess/Rook.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/Chess/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/Chess/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Chess.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/Chess.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/Chess.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/Chess.exe" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/Chess.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/CLI Chess/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +80,7 @@
       <workItem from="1637164347814" duration="717000" />
       <workItem from="1637178171037" duration="6796000" />
       <workItem from="1637277628841" duration="7495000" />
-      <workItem from="1637349152474" duration="22208000" />
+      <workItem from="1637349152474" duration="27710000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, with the board and pieces already made">
       <created>1637164959200</created>
@@ -125,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637164959200</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="made a simple parser class, but had some issues with inputstream">
+      <created>1637625340200</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1637625340200</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +104,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit, with the board and pieces already made" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit, with the board and pieces already made" />
+    <MESSAGE value="made a simple parser class, but had some issues with inputstream" />
+    <option name="LAST_COMMIT_MESSAGE" value="made a simple parser class, but had some issues with inputstream" />
   </component>
 </project>
