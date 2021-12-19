@@ -6,11 +6,11 @@
 #define CHESS_BISHOP_H
 
 
-#include "Piece.h"
+#include "header/Piece.h"
 
 class Bishop: public Piece {
 public:
-    Bishop(int posistionX, int posistionY, string type, string color);
+    Bishop(int posistionX, int posistionY, string type, char color);
     void move();
 };
 

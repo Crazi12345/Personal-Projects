@@ -2,14 +2,14 @@
 // Created by patri on 15-11-2021.
 //
 #include <iostream>
-#include "Piece.h"
-#include "Board.h"
-Piece::Piece(int positionX,int positionY, string type, string color) {
+#include "header/Piece.h"
+#include "header/Board.h"
+Piece::Piece(int positionX, int positionY, string type, char color) {
     this->positionX = positionX;
     this->positionY = positionY;
     this->type = type;
     this->color = color;
-    string p = type.append(color);
+    string p = type+(color);
 
 
 
@@ -29,4 +29,8 @@ int Piece::getPosistionX() {
 }
 int Piece::getPosistionY() {
     return positionY;
+}
+
+Piece::Piece() {
+
 }

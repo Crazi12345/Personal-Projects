@@ -5,11 +5,11 @@
 #ifndef CHESS_KNIGHT_H
 #define CHESS_KNIGHT_H
 
-#include "Piece.h"
+#include "header/Piece.h"
 class Knight: public Piece{
 public:
 
-    Knight(int posistionX, int posistionY, string type, string color);
+    Knight(int posistionX, int posistionY, string type, char color);
 
     void move();
 };

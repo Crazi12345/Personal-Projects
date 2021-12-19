@@ -2,8 +2,8 @@
 // Created by patri on 17-11-2021.
 //
 
-#include "Rook.h"
-Rook::Rook(int posistionX, int posistionY, string type, string color) : Piece(posistionX, posistionY, type, color) {
+#include "header/Pieces/Rook.h"
+Rook::Rook(int posistionX, int posistionY, string type, char color) : Piece(posistionX, posistionY, type, color) {
 
 }
 

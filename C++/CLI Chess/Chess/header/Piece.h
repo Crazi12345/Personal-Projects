@@ -2,7 +2,7 @@
 // Created by patri on 15-11-2021.
 //
 #pragma once
-#include "Board.h"
+#include "header/Board.h"
 #include <string>
 using namespace std;
 class Piece
@@ -10,11 +10,14 @@ class Piece
 
 
 public:
-    Piece(int posistionX,int posistionY, string type, string color);
-    string getName();
-    int getPosistionX();
-    int getPosistionY();
+    Piece();
+
+    Piece(int posistionX, int posistionY, string type, char color);
+    virtual string getName();
+    virtual int getPosistionX();
+    virtual int getPosistionY();
     virtual void move();
+
 
 
 

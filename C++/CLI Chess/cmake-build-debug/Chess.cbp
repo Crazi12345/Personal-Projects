@@ -85,61 +85,67 @@
 		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Bishop.cpp">
 			<Option target="Chess"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Bishop.h">
-			<Option target="Chess"/>
-		</Unit>
 		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Board.cpp">
-			<Option target="Chess"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Board.h">
 			<Option target="Chess"/>
 		</Unit>
 		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Game.cpp">
 			<Option target="Chess"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Game.h">
-			<Option target="Chess"/>
-		</Unit>
 		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/King.cpp">
-			<Option target="Chess"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/King.h">
 			<Option target="Chess"/>
 		</Unit>
 		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Knight.cpp">
 			<Option target="Chess"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Knight.h">
-			<Option target="Chess"/>
-		</Unit>
 		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Parser.cpp">
-			<Option target="Chess"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Parser.h">
 			<Option target="Chess"/>
 		</Unit>
 		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Pawn.cpp">
 			<Option target="Chess"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Pawn.h">
-			<Option target="Chess"/>
-		</Unit>
 		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Piece.cpp">
 			<Option target="Chess"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Piece.h">
+		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Player.cpp">
 			<Option target="Chess"/>
 		</Unit>
 		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Queen.cpp">
 			<Option target="Chess"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Queen.h">
-			<Option target="Chess"/>
-		</Unit>
 		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Rook.cpp">
 			<Option target="Chess"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/Rook.h">
+		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/header/Board.h">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/header/Game.h">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/header/Parser.h">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/header/Piece.h">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/header/Pieces/Bishop.h">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/header/Pieces/King.h">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/header/Pieces/Knight.h">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/header/Pieces/Pawn.h">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/header/Pieces/Queen.h">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/header/Pieces/Rook.h">
+			<Option target="Chess"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/header/Player.h">
 			<Option target="Chess"/>
 		</Unit>
 		<Unit filename="C:/Users/patri/Skrivebord/Personal-Projects/C++/CLI Chess/Chess/main.cpp">

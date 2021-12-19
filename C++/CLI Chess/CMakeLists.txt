@@ -7,21 +7,21 @@ include_directories(Chess)
 
 add_executable(Chess
         Chess/Bishop.cpp
-        Chess/Bishop.h
+        Chess/header/Pieces/Bishop.h
         Chess/Board.cpp
-        Chess/Board.h
+        Chess/header/Board.h
         Chess/Game.cpp
-        Chess/Game.h
+        Chess/header/Game.h
         Chess/King.cpp
-        Chess/King.h
+        Chess/header/Pieces/King.h
         Chess/Knight.cpp
-        Chess/Knight.h
+        Chess/header/Pieces/Knight.h
         Chess/main.cpp
         Chess/Pawn.cpp
-        Chess/Pawn.h
+        Chess/header/Pieces/Pawn.h
         Chess/Piece.cpp
-        Chess/Piece.h
+        Chess/header/Piece.h
         Chess/Queen.cpp
-        Chess/Queen.h
+        Chess/header/Pieces/Queen.h
         Chess/Rook.cpp
-        Chess/Rook.h Chess/Parser.cpp Chess/Parser.h)
+        Chess/header/Pieces/Rook.h Chess/Parser.cpp Chess/header/Parser.h Chess/Player.cpp Chess/header/Player.h)

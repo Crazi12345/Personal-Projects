@@ -1,94 +1,70 @@
 //
-// Created by patri on 15-11-2021.
+// Created by Patrick Larsen on 15-11-2021.
 //
 
-#include "Game.h"
-#include "Board.h"
-#include"Piece.h"
-#include "Pawn.h"
-#include "Queen.h"
-#include "Knight.h"
-#include "Bishop.h"
-#include "King.h"
+#include "header/Game.h"
 #include <iostream>
-#include "Rook.h"
-#include <vector>
-#include <string>
 #include <unistd.h>
-
+#include <chrono>
+#include <thread>
 using namespace std;
 
 
 Game::Game() {
+    Player Black('b');
+    Player White('w');
+    this->White = White;
+    this->Black = Black;
     Board b;
      board=b;
     Parser p;
       parser=p;
+      currentPlayer = White;
 }
 
 void Game::Setup() {
+    board.PrettyPrint();
 
+    PlacePieces(board);
     board.PrettyPrint();
-    CreatePieces(board);
-    board.PrettyPrint();
+
     Play();
 }
 
 void Game::Play() {
-    system("cls");
+   system("cls");
+    this_thread::sleep_for(chrono::milliseconds(100));
     board.PrettyPrint();
+    cout << "\nPlease Input a Command:";
 
-    cout << "'\n'Please Input a Command:";
+    parser.Command(currentPlayer);
 
-    parser.Command();
-    usleep(1000000);
-    //cout <<"here:"<< parser.getFullWord();
-   parser.printWord();
-    cin.get();
-
+   // cin.get();
+    SwitchCurrentPlayer();
     Play();
 
 }
 
-void Game::CreatePieces(Board &b) {
-
-    for (int i = 0; i < 8; i++) {
-        whitePieces.push_back(Pawn(1, i, "P", "w"));
-    }
-    for (int i = 0; i < 8; i++) {
-        blackPieces.push_back(Pawn(6, i, "P", "b"));
-    }
-    whitePieces.push_back(King(0, 4, "K", "w"));
-    blackPieces.push_back(King(7, 4, "K", "b"));
-    whitePieces.push_back(Queen(0, 3, "Q", "w"));
-    blackPieces.push_back(Queen(7, 3, "Q", "b"));
-    whitePieces.push_back(Bishop(0, 2, "B", "w"));
-    blackPieces.push_back(Bishop(0, 5, "B", "w"));
-    whitePieces.push_back(Bishop(7, 2, "B", "b"));
-    blackPieces.push_back(Bishop(7, 5, "B", "b"));
-    whitePieces.push_back(Rook(0, 0, "R", "w"));
-    blackPieces.push_back(Rook(0, 7, "R", "w"));
-    whitePieces.push_back(Rook(7, 0, "R", "b"));
-    blackPieces.push_back(Rook(7, 7, "R", "b"));
-    whitePieces.push_back(Knight(0, 1, "K", "w"));
-    blackPieces.push_back(Knight(0, 6, "K", "w"));
-    whitePieces.push_back(Knight(7, 1, "K", "b"));
-    blackPieces.push_back(Knight(7, 6, "K", "b"));
-
-    PlacePieces(b);
-}
-
-
-void Game::move() {
-
-}
 
 void Game::PlacePieces(Board &b) {
 
-    for (int i = 0; i < whitePieces.size(); i++) {
-        b.setField(whitePieces.at(i).getPosistionX(), whitePieces.at(i).getPosistionY(), whitePieces.at(i).getName());
+    for (int i = 0; i < White.getPieces().size(); i++) {
+        b.setField(White.getPieces().at(i).getPosistionX(), White.getPieces().at(i).getPosistionY(), White.getPieces().at(i).getName());
     }
-    for (int i = 0; i < blackPieces.size(); i++) {
-        b.setField(blackPieces.at(i).getPosistionX(), blackPieces.at(i).getPosistionY(), blackPieces.at(i).getName());
+    for (int i = 0; i < Black.getPieces().size(); i++) {
+        b.setField(Black.getPieces().at(i).getPosistionX(), Black.getPieces().at(i).getPosistionY(), Black.getPieces().at(i).getName());
     }
 }
+
+
+void Game::SwitchCurrentPlayer() {
+
+    if(currentPlayer.getName() == 'w'){
+        currentPlayer=Black;
+    }
+    else{
+        currentPlayer=White;
+    }
+
+}
+Player Game::getCurrentPlayer() {return currentPlayer;}

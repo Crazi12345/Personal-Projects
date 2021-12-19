@@ -6,6 +6,8 @@
 #include <vector>
 #include "Board.h"
 #include "Parser.h"
+#include "Player.h"
+
 class Game
 {
 
@@ -14,22 +16,26 @@ public:
 
     Game();
     void Setup();
-
+    std::vector<std::vector<Piece>> getPieces();
+    void SwitchCurrentPlayer();
+    Player getCurrentPlayer();
 
 private:
    bool isFinished = false;
    bool isFirst = true;
-    std::vector<Piece> whitePieces;
-    std::vector<Piece> blackPieces;
+
     Board board;
+    Parser parser;
+    Player currentPlayer;
+
 
 
 protected:
     void Play();
-    void move();
-    void CreatePieces(Board& b);
     void PlacePieces(Board& b);
-    Parser parser;
+    Player White;
+    Player Black;
+
 
 
 

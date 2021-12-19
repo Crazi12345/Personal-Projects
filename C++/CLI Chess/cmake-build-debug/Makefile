@@ -320,6 +320,30 @@ Chess/Piece.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/Chess/Piece.cpp.s
 .PHONY : Chess/Piece.cpp.s
 
+Chess/Player.obj: Chess/Player.cpp.obj
+.PHONY : Chess/Player.obj
+
+# target to build an object file
+Chess/Player.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/Chess/Player.cpp.obj
+.PHONY : Chess/Player.cpp.obj
+
+Chess/Player.i: Chess/Player.cpp.i
+.PHONY : Chess/Player.i
+
+# target to preprocess a source file
+Chess/Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/Chess/Player.cpp.i
+.PHONY : Chess/Player.cpp.i
+
+Chess/Player.s: Chess/Player.cpp.s
+.PHONY : Chess/Player.s
+
+# target to generate assembly for a file
+Chess/Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chess.dir\build.make CMakeFiles/Chess.dir/Chess/Player.cpp.s
+.PHONY : Chess/Player.cpp.s
+
 Chess/Queen.obj: Chess/Queen.cpp.obj
 .PHONY : Chess/Queen.obj
 
@@ -425,6 +449,9 @@ help:
 	@echo ... Chess/Piece.obj
 	@echo ... Chess/Piece.i
 	@echo ... Chess/Piece.s
+	@echo ... Chess/Player.obj
+	@echo ... Chess/Player.i
+	@echo ... Chess/Player.s
 	@echo ... Chess/Queen.obj
 	@echo ... Chess/Queen.i
 	@echo ... Chess/Queen.s

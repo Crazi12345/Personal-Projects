@@ -7,16 +7,17 @@
 
 #include <string>
 #include <vector>
+#include <map>
+#include "Player.h"
 
 class Parser {
 public:
     Parser();
-    void Command();
+    void Command(Player current);
     bool validCommand;
-    std::string getWordOne();
-    std::string getWordTwo();
-    std::string getWordThree();
-    std::string getFullWord();
+    void selectCommand(Player current);
+    void moveCommand(Player current);
+    void helpCommand();
     void printWord();
 
 private:
@@ -25,7 +26,7 @@ private:
     std::string wordOne;
     std::string wordTwo;
     std::string wordThree;
-
+    std::map<char,int> letter;
 
 };
 

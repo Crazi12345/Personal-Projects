@@ -6,11 +6,11 @@
 #define CHESS_QUEEN_H
 
 
-#include "Piece.h"
+#include "header/Piece.h"
 
 class Queen : public Piece{
 public:
-        Queen(int posistionX, int posistionY, string type, string color);
+        Queen(int posistionX, int posistionY, string type, char color);
 
     void move();
 };
