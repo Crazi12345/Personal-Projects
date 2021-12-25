@@ -23,8 +23,8 @@ void Player::createPieces() {
     pieces.push_back(Bishop(0, 5, "B", name));
     pieces.push_back(Rook(0, 0, "R", name));
     pieces.push_back(Rook(0, 7, "R", name));
-    pieces.push_back(Knight(0, 1, "K", name));
-    pieces.push_back(Knight(0, 6, "K", name));
+    pieces.push_back(Knight(0, 1, "H", name));
+    pieces.push_back(Knight(0, 6, "H", name));
 }
 else{
         for (int i = 0; i < 8; i++) {
@@ -36,8 +36,8 @@ else{
         pieces.push_back(Bishop(7, 5, "B", name));
         pieces.push_back(Rook(7, 0, "R", name));
         pieces.push_back(Rook(7, 7, "R", name));
-        pieces.push_back(Knight(7, 1, "K", name));
-        pieces.push_back(Knight(7, 6, "K", name));
+        pieces.push_back(Knight(7, 1, "H", name));
+        pieces.push_back(Knight(7, 6, "H", name));
 }
 
 

@@ -18,6 +18,7 @@ public:
     void selectCommand(Player current);
     void moveCommand(Player current);
     void helpCommand();
+    int AsciiToInt(int ascii);
     void printWord();
 
 private:
