@@ -19,7 +19,7 @@ Piece::Piece(int positionX, int positionY, string type, char color) {
 string Piece::getName() {
     string name = this->type+this->color;
   //  std::cout <<"Here: "<< type<< color<<endl;
-    return (name);
+    return name;
 
 }
 

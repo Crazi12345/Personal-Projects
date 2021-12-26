@@ -19,6 +19,7 @@ public:
     std::vector<std::vector<Piece>> getPieces();
     void SwitchCurrentPlayer();
     Player getCurrentPlayer();
+    Player getAlternatePlayer();
 
 private:
    bool isFinished = false;
@@ -27,6 +28,7 @@ private:
     Board board;
     Parser parser;
     Player currentPlayer;
+    Player alternatePlayer;
 
 
 

@@ -23,6 +23,7 @@ public:
     void createPieces();
     vector<Piece> getPieces();
     char getName();
+    string getFullName();
 
 
 private:

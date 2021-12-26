@@ -53,3 +53,13 @@ char Player::getName() {
 
     return name;
 }
+
+string Player::getFullName(){
+    int switcher = static_cast<int>(getName());
+    switch(switcher){
+    case 'w':
+        return "White";
+    default:
+        return "Black";
+    }
+}

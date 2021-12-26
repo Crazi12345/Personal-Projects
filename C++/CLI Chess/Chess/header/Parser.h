@@ -13,12 +13,13 @@
 class Parser {
 public:
     Parser();
-    void Command(Player current);
+    void Command(Player current, Player alternate);
     bool validCommand;
-    void selectCommand(Player current);
-    void moveCommand(Player current);
+    void selectCommand();
+    void moveCommand();
     void helpCommand();
     int AsciiToInt(int ascii);
+    void printPieceName(Piece piece);
     void printWord();
 
 private:
@@ -28,7 +29,8 @@ private:
     std::string wordTwo;
     std::string wordThree;
     std::map<char,int> letter;
-
+    Player alternate;
+    Player current;
 };
 
 

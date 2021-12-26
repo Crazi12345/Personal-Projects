@@ -1,0 +1,96 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Chess/header/Board.h
+string
+-
+Piece.h
+../Chess/header/Piece.h
+
+../Chess/header/Piece.h
+header/Board.h
+../Chess/header/header/Board.h
+string
+-
+
+../Chess/header/Pieces/Bishop.h
+header/Piece.h
+../Chess/header/Pieces/header/Piece.h
+
+../Chess/header/Pieces/King.h
+header/Piece.h
+../Chess/header/Pieces/header/Piece.h
+
+../Chess/header/Pieces/Knight.h
+header/Piece.h
+../Chess/header/Pieces/header/Piece.h
+
+../Chess/header/Pieces/Pawn.h
+header/Piece.h
+../Chess/header/Pieces/header/Piece.h
+
+../Chess/header/Pieces/Queen.h
+header/Piece.h
+../Chess/header/Pieces/header/Piece.h
+
+../Chess/header/Pieces/Rook.h
+header/Piece.h
+../Chess/header/Pieces/header/Piece.h
+
+/home/tired_atlas/Personal-Projects/C++/CLI Chess/Chess/Parser.cpp
+header/Parser.h
+/home/tired_atlas/Personal-Projects/C++/CLI Chess/Chess/header/Parser.h
+string
+-
+iostream
+-
+sstream
+-
+unistd.h
+-
+limits
+-
+map
+-
+
+/home/tired_atlas/Personal-Projects/C++/CLI Chess/Chess/header/Parser.h
+string
+-
+vector
+-
+map
+-
+Player.h
+/home/tired_atlas/Personal-Projects/C++/CLI Chess/Chess/header/Player.h
+
+/home/tired_atlas/Personal-Projects/C++/CLI Chess/Chess/header/Piece.h
+header/Board.h
+/home/tired_atlas/Personal-Projects/C++/CLI Chess/Chess/header/header/Board.h
+string
+-
+
+/home/tired_atlas/Personal-Projects/C++/CLI Chess/Chess/header/Player.h
+vector
+-
+Piece.h
+/home/tired_atlas/Personal-Projects/C++/CLI Chess/Chess/header/Piece.h
+header/Pieces/Pawn.h
+/home/tired_atlas/Personal-Projects/C++/CLI Chess/Chess/header/header/Pieces/Pawn.h
+header/Pieces/Queen.h
+/home/tired_atlas/Personal-Projects/C++/CLI Chess/Chess/header/header/Pieces/Queen.h
+header/Pieces/Knight.h
+/home/tired_atlas/Personal-Projects/C++/CLI Chess/Chess/header/header/Pieces/Knight.h
+header/Pieces/Bishop.h
+/home/tired_atlas/Personal-Projects/C++/CLI Chess/Chess/header/header/Pieces/Bishop.h
+header/Pieces/King.h
+/home/tired_atlas/Personal-Projects/C++/CLI Chess/Chess/header/header/Pieces/King.h
+iostream
+-
+header/Pieces/Rook.h
+/home/tired_atlas/Personal-Projects/C++/CLI Chess/Chess/header/header/Pieces/Rook.h
+

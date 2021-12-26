@@ -20,6 +20,7 @@ Game::Game() {
     Parser p;
       parser=p;
       currentPlayer = White;
+      alternatePlayer = Black;
 }
 
 void Game::Setup() {
@@ -32,39 +33,38 @@ void Game::Setup() {
 }
 
 void Game::Play() {
-   system("cls");
+   system("clear");
     this_thread::sleep_for(chrono::milliseconds(300));
+    cout << "it's "<< getCurrentPlayer().getFullName() << "'s"<< " turn" << endl;
     board.PrettyPrint();
 
 
-    parser.Command(currentPlayer);
+    parser.Command(currentPlayer, alternatePlayer);
+    cout << "\nPlease press any key to continue...";
 
-   // cin.get();
+    cin.get();
     SwitchCurrentPlayer();
     Play();
 
 }
 
 
-void Game::PlacePieces(Board &b) {
+void Game::PlacePieces(Board &board) {
 
     for (int i = 0; i < White.getPieces().size(); i++) {
-        b.setField(White.getPieces().at(i).getPosistionX(), White.getPieces().at(i).getPosistionY(), White.getPieces().at(i).getName());
+        board.setField(White.getPieces().at(i).getPosistionX(), White.getPieces().at(i).getPosistionY(), White.getPieces().at(i).getName());
     }
     for (int i = 0; i < Black.getPieces().size(); i++) {
-        b.setField(Black.getPieces().at(i).getPosistionX(), Black.getPieces().at(i).getPosistionY(), Black.getPieces().at(i).getName());
+        board.setField(Black.getPieces().at(i).getPosistionX(), Black.getPieces().at(i).getPosistionY(), Black.getPieces().at(i).getName());
     }
 }
 
 
 void Game::SwitchCurrentPlayer() {
-
-    if(currentPlayer.getName() == 'w'){
-        currentPlayer=Black;
-    }
-    else{
-        currentPlayer=White;
-    }
+    Player temp = alternatePlayer;
+    alternatePlayer = currentPlayer;
+    currentPlayer = temp;
 
 }
 Player Game::getCurrentPlayer() {return currentPlayer;}
+Player Game::getAlternatePlayer() {return alternatePlayer;}
