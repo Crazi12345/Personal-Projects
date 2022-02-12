@@ -1,11 +1,37 @@
-//
-// Created by patri on 17-11-2021.
-//
+#include "Rook.h"
 
-#include "header/Pieces/Rook.h"
-Rook::Rook(int posistionX, int posistionY, string type, char color) : Piece(posistionX, posistionY, type, color) {
+Rook::Rook()
+{
 
 }
 
+Rook::Rook(int posX, int posY, char type, char color)
+{
+    this->color = color;
+    this->type = type;
+    this->posX = posX;
+    this->posY = posY;
+}
 
-void Rook::move() {}
+char Rook::getType(){
+    return type;
+}
+char Rook::getColor(){
+    return color;
+}
+std::string Rook::getName(){
+    std::string name = "";
+            name += type;
+            name += color;
+    return name;
+}
+
+
+int Rook::getPosX(){
+    return posX;
+}
+
+int Rook::getPosY(){
+    return posY;
+}
+

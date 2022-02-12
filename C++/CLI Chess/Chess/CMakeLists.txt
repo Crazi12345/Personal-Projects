@@ -3,4 +3,17 @@ project(Chess)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Chess main.cpp Board.cpp header/Board.h Piece.cpp header/Piece.h Game.cpp header/Game.h Pawn.cpp header/Pieces/Pawn.h King.cpp header/Pieces/King.h Queen.cpp header/Pieces/Queen.h Bishop.cpp header/Pieces/Bishop.h Rook.cpp header/Pieces/Rook.h Knight.cpp header/Pieces/Knight.h)
+add_executable(Chess
+    main.cpp
+    Board.cpp Board.h
+    Game.cpp Game.h
+    Parser.cpp Parser.h
+    Player.cpp Player.h
+    Piece.h Piece.cpp
+    Pawn.h Pawn.cpp
+    King.h King.cpp
+    Queen.h Queen.cpp
+    Bishop.h Bishop.cpp
+    Rook.h Rook.cpp
+    Knight.h Knight.cpp
+    )

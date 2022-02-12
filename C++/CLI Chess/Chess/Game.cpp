@@ -2,7 +2,8 @@
 // Created by Patrick Larsen on 15-11-2021.
 //
 
-#include "header/Game.h"
+#include "Game.h"
+#include "Player.h"
 #include <iostream>
 #include <unistd.h>
 #include <chrono>
@@ -11,60 +12,53 @@ using namespace std;
 
 
 Game::Game() {
-    Player Black('b');
-    Player White('w');
-    this->White = White;
-    this->Black = Black;
-    Board b;
-     board=b;
-    Parser p;
-      parser=p;
-      currentPlayer = White;
-      alternatePlayer = Black;
-}
+  }
 
 void Game::Setup() {
     board.PrettyPrint();
-
-    PlacePieces(board);
-    board.PrettyPrint();
-
+    Player currentPlayer = Player('w',{});
+    Player alternatePlayer = Player('b',{});
+    PlacePieces();
+        board.PrettyPrint();
     Play();
 }
 
 void Game::Play() {
-   system("clear");
-    this_thread::sleep_for(chrono::milliseconds(300));
-    cout << "it's "<< getCurrentPlayer().getFullName() << "'s"<< " turn" << endl;
-    board.PrettyPrint();
 
-
-    parser.Command(currentPlayer, alternatePlayer);
+    parser.Command();
     cout << "\nPlease press any key to continue...";
 
     cin.get();
-    SwitchCurrentPlayer();
+
     Play();
 
 }
 
 
-void Game::PlacePieces(Board &board) {
+void Game::PlacePieces(){
+//cout << currentPlayer.getPieces().at(0)->getName() << endl;
+    for(int i = 0; i<currentPlayer.getPieces().size();i++){
+        cout << "read";
+        Piece* temp =currentPlayer.getPieces().at(i);
+       board.setField(temp->getPosX(),temp->getPosY(),temp->getName());
+       cout << temp->getName() << endl;
+       cin.get();
+    }
+    for(int i = 0; i<alternatePlayer.getPieces().size();i++){
+        Piece* temp =alternatePlayer.getPieces().at(i);
+       board.setField(temp->getPosX(),temp->getPosY(),temp->getName());
+    }
 
-    for (int i = 0; i < White.getPieces().size(); i++) {
-        board.setField(White.getPieces().at(i).getPosistionX(), White.getPieces().at(i).getPosistionY(), White.getPieces().at(i).getName());
-    }
-    for (int i = 0; i < Black.getPieces().size(); i++) {
-        board.setField(Black.getPieces().at(i).getPosistionX(), Black.getPieces().at(i).getPosistionY(), Black.getPieces().at(i).getName());
-    }
 }
 
 
-void Game::SwitchCurrentPlayer() {
-    Player temp = alternatePlayer;
-    alternatePlayer = currentPlayer;
-    currentPlayer = temp;
 
+Player Game::getCurrentPlayer(){
+    return currentPlayer;
 }
-Player Game::getCurrentPlayer() {return currentPlayer;}
-Player Game::getAlternatePlayer() {return alternatePlayer;}
+void Game::SwitchPlayer(){
+    Player temp;
+    temp = currentPlayer;
+    currentPlayer = alternatePlayer;
+    alternatePlayer = temp;
+}

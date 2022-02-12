@@ -1,12 +1,35 @@
-//
-// Created by patri on 15-11-2021.
-//
+#include "Queen.h"
 
-#include "header/Pieces/Queen.h"
-Queen::Queen(int posistionX, int posistionY, string type, char color) : Piece(posistionX, posistionY, type, color) {
+Queen::Queen()
+{
 
 }
 
-void Queen::move() {
+Queen::Queen(int posX, int posY, char type, char color)
+{
+    this->color = color;
+    this->type = type;
+    this->posX = posX;
+    this->posY = posY;
+}
 
+char Queen::getType(){
+    return type;
+}
+char Queen::getColor(){
+    return color;
+}
+std::string Queen::getName(){
+    std::string name = "";
+            name += type;
+            name += color;
+    return name;
+}
+
+
+int Queen::getPosX(){
+    return posX;
+}
+int Queen::getPosY(){
+    return posY;
 }

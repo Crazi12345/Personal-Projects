@@ -2,7 +2,7 @@
 // Created by patri on 19-11-2021.
 //
 
-#include "header/Parser.h"
+#include "Parser.h"
 #include <string>
 #include <iostream>
 #include <sstream>
@@ -24,9 +24,8 @@ Parser::Parser() {
 
 }
 
-void Parser::Command(Player current, Player alternate) {
-    this->alternate = alternate;
-    this->current = current;
+void Parser::Command() {
+
     cout << "\nPlease Input a Command:";
     words.clear();
     string command;
@@ -47,12 +46,12 @@ try {
         helpCommand();
     } else {
         cout << "i dont understand" << endl;
-        Command(current, alternate);
+        Command();
 
     }
 }
 catch (exception e){
-    Command(current, alternate);
+    Command();
 }
 }
 
@@ -66,43 +65,10 @@ void Parser::helpCommand() {
 }
 
 void Parser::selectCommand() {
-    auto key = (letter.find(words.at(1).at(0)));
-    int y = (key->second)-1;
-
-    int a  = static_cast<int>(words.at(1).at(1));
-    int x = (AsciiToInt(a)-1);
-
-    for(int i = 0; i<7;i++){
-        for(int j =0; j<7;j++){
-            for(int k = 0; k<current.getPieces().size();k++){
-               if(current.getPieces().at(k).getPosistionX()==x && current.getPieces().at(k).getPosistionY()==y){
-                  printPieceName(current.getPieces().at(k));
-                   return;
-               }
-
-            }
-        }
-    }
-    Command(current, alternate);
-}
-
+   }
 
 
 void Parser::moveCommand(){
-    auto key = (letter.find(words.at(1).at(0)));
-    int y_one = (key->second)-1;
-
-    int a  = static_cast<int>(words.at(1).at(1));
-    int x_one = (AsciiToInt(a)-1);
-
-
-    key = (letter.find(words.at(2).at(0)));
-    int y_two = (key->second)-1;
-
-     a  = static_cast<int>(words.at(2).at(1));
-    int x_two = (AsciiToInt(a)-1);
-
-
 
 }
 
@@ -114,7 +80,7 @@ void Parser::printWord() {
         cout << words.at(i) << endl;
     }
 }
-
+/*
 void Parser::printPieceName(Piece piece){
     int switcher = static_cast<int>(piece.getName().at(0));
     switch (switcher) {
@@ -141,7 +107,7 @@ void Parser::printPieceName(Piece piece){
         break;
     }
 }
-
+*/
 int Parser::AsciiToInt(int ascii) {
 
     switch(ascii){

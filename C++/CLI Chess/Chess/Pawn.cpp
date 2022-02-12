@@ -1,14 +1,31 @@
-//
-// Created by patri on 15-11-2021.
-//
+#include "Pawn.h"
 
-#include "header/Pieces/Pawn.h"
-#include "header/Board.h"
-
-Pawn::Pawn(int posistionX, int posistionY, string type, char color) : Piece(posistionX, posistionY, type, color) {
-
+Pawn::Pawn(int posX, int posY, char type,char color)
+{
+        this->color = color;
+        this->type = type;
+    this->posX = posX;
+    this->posY = posY;
 }
 
-void Pawn::move() {
+char Pawn::getType(){
+    return type;
+}
+char Pawn::getColor(){
+    return color;
+}
+std::string Pawn::getName(){
+    std::string name = "";
+            name += type;
+            name += color;
+    return name;
+}
 
+
+int Pawn::getPosX(){
+    return posX;
+}
+
+int Pawn::getPosY(){
+    return posY;
 }

@@ -2,7 +2,7 @@
 // Created by patri on 15-11-2021.
 //
 
-#include "header/Board.h"
+#include "Board.h"
 #include <iostream>
 using namespace std;
 

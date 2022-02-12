@@ -1,12 +1,36 @@
-//
-// Created by patri on 17-11-2021.
-//
+#include "Knight.h"
 
-#include "header/Pieces/Knight.h"
-Knight::Knight(int posistionX, int posistionY, string type, char color) : Piece(posistionX, posistionY, type, color) {
+Knight::Knight()
+{
 
 }
 
-void Knight::move() {
+Knight::Knight(int posX, int posY, char type, char color)
+{
+    this->color = color;
+    this->type = type;
+    this->posX = posX;
+    this->posY = posY;
+}
 
+char Knight::getType(){
+    return type;
+}
+char Knight::getColor(){
+    return color;
+}
+std::string Knight::getName(){
+    std::string name = "";
+            name += type;
+            name += color;
+    return name;
+}
+
+
+
+int Knight::getPosX(){
+    return posX;
+}
+int Knight::getPosY(){
+    return posY;
 }
