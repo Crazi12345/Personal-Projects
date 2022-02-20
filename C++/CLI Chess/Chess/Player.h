@@ -18,14 +18,12 @@
 class Player {
 public:
     Player();
-    Player(char name,std::vector<Piece*>pieces);
-    void createPieces();
+    Player(char name);
+    std::vector<Piece*> createPieces();
     char getName();
     std::vector<Piece*> getPieces();
-protected:
-    std::vector<Piece*> pieces;
 private:
-
+std::vector<Piece*> pieces;
     char name;
 };
 

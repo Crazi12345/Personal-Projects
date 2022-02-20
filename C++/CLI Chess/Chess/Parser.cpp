@@ -36,6 +36,9 @@ void Parser::Command() {
     while (getline(checker, token, ' ')) {
         words.push_back(token);
     }
+    words.at(0) = wordOne;
+    words.at(1) = wordTwo;
+    words.at(2) = wordThree;
 try {
     if (words.at(0) == "select" && words.size() > 1) {
         selectCommand();
@@ -53,6 +56,8 @@ try {
 catch (exception e){
     Command();
 }
+
+
 }
 
 
@@ -65,6 +70,7 @@ void Parser::helpCommand() {
 }
 
 void Parser::selectCommand() {
+
    }
 
 

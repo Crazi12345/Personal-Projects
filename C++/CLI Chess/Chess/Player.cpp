@@ -1,6 +1,7 @@
 //
 // Created by patri on 16-12-2021.
 //
+
 #include "Piece.h"
 #include "Pawn.h"
 #include "King.h"
@@ -12,31 +13,34 @@
 using namespace std;
 
 Player::Player(){}
-Player::Player(char name,std::vector<Piece*>pieces) {
+Player::Player(char name) {
 this->name=name;
-    this->pieces = pieces;
-createPieces();
+    pieces = this->createPieces();
+    //cout<<"pieces list: "<<pieces.size()<<endl;
+
+
 
 }
 
 
-void Player::createPieces() {
+std::vector<Piece*> Player::createPieces() {
     int place;
     if(name == 'w'){
        place = 0;
     for (int i = 0; i < 8; i++) {
-        Pawn p = Pawn(1, i, 'P', name);
-            pieces.push_back(&p);
+       pieces.push_back(new Pawn(1, i, 'P', name));
         }
     }
     else{
         place = 7;
         for (int i = 0; i < 8; i++) {
-            Pawn p = Pawn(1, i, 'P', name);
-                pieces.push_back(&p);
+
+                pieces.push_back(new Pawn(6, i, 'P', name));
             }}
 
-           King k= King(place,4,'P',name);
+         /*
+          * for future referrence
+          *  King k= King(place,4,'P',name);
            Queen q(place, 3, 'Q', name);
            Bishop b(place, 2, 'B', name);
            Bishop bb(place, 5, 'B', name);
@@ -44,22 +48,24 @@ void Player::createPieces() {
            Rook rr(place, 7, 'R', name);
            Knight n(place, 1, 'N', name);
            Knight nn(place, 6, 'N', name);
-
+*/
            pieces.push_back(new King(place,4,'P',name));
-           pieces.push_back(&q);
-           pieces.push_back(&b);
-           pieces.push_back(&bb);
-           pieces.push_back(&r);
-           pieces.push_back(&rr);
-           pieces.push_back(&n);
-           pieces.push_back(&nn);
-           cout << pieces.size();
+           pieces.push_back(new Queen(place, 3, 'Q', name));
+           pieces.push_back(new Bishop(place, 2, 'B', name));
+           pieces.push_back(new Bishop(place, 5, 'B', name));
+           pieces.push_back(new Rook(place, 0,'R', name));
+           pieces.push_back(new Rook(place, 7, 'R', name));
+           pieces.push_back(new Knight (place, 1, 'N', name));
+           pieces.push_back(new Knight (place, 6, 'N', name));
+           return pieces;
 
 }
 
 std::vector<Piece*> Player::getPieces()
-{   cout << pieces.empty();
+{
     return pieces;
 }
 
-
+char Player::getName(){
+    return name;
+}

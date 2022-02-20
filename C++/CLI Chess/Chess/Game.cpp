@@ -16,8 +16,11 @@ Game::Game() {
 
 void Game::Setup() {
     board.PrettyPrint();
-    Player currentPlayer = Player('w',{});
-    Player alternatePlayer = Player('b',{});
+     Player whitePlayer = Player('w');
+     Player blackPlayer = Player('b');
+     currentPlayer = whitePlayer;
+     alternatePlayer = blackPlayer;
+   //cout<<"pieces list: "<<currentPlayer.getPieces().size()<<endl;
     PlacePieces();
         board.PrettyPrint();
     Play();
@@ -36,17 +39,15 @@ void Game::Play() {
 
 
 void Game::PlacePieces(){
-//cout << currentPlayer.getPieces().at(0)->getName() << endl;
     for(int i = 0; i<currentPlayer.getPieces().size();i++){
-        cout << "read";
-        Piece* temp =currentPlayer.getPieces().at(i);
-       board.setField(temp->getPosX(),temp->getPosY(),temp->getName());
-       cout << temp->getName() << endl;
-       cin.get();
+
+           Piece* ptr = currentPlayer.getPieces().at(i);
+          board.setField(ptr->getPosX(),ptr->getPosY(),ptr->getName());
+
     }
     for(int i = 0; i<alternatePlayer.getPieces().size();i++){
-        Piece* temp =alternatePlayer.getPieces().at(i);
-       board.setField(temp->getPosX(),temp->getPosY(),temp->getName());
+        Piece* ptr =alternatePlayer.getPieces().at(i);
+       board.setField(ptr->getPosX(),ptr->getPosY(),ptr->getName());
     }
 
 }
