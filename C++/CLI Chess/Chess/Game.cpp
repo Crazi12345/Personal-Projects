@@ -8,6 +8,7 @@
 #include <unistd.h>
 #include <chrono>
 #include <thread>
+#include <stdlib.h>
 using namespace std;
 
 
@@ -15,24 +16,31 @@ Game::Game() {
   }
 
 void Game::Setup() {
-    board.PrettyPrint();
+  //  board.PrettyPrint();
      Player whitePlayer = Player('w');
      Player blackPlayer = Player('b');
      currentPlayer = whitePlayer;
      alternatePlayer = blackPlayer;
    //cout<<"pieces list: "<<currentPlayer.getPieces().size()<<endl;
     PlacePieces();
-        board.PrettyPrint();
+        //board.PrettyPrint();
     Play();
 }
 
 void Game::Play() {
-
-    parser.Command();
+    if(currentPlayer.getName()=='w'){
+    cout << "White's turn"<<endl;
+    }
+    else {
+        cout << "Black's turn"<<endl;
+    }
+    board.PrettyPrint();
+    parser.Command(currentPlayer,alternatePlayer);
     cout << "\nPlease press any key to continue...";
 
     cin.get();
-
+    SwitchPlayer();
+    system("clear");
     Play();
 
 }

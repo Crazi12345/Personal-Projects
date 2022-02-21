@@ -30,3 +30,6 @@ int King::getPosX(){
 int King::getPosY(){
     return posY;
 }
+std::string King::getFullName(){
+    return "King";
+}

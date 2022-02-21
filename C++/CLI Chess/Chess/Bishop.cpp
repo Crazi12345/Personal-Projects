@@ -32,3 +32,6 @@ int Bishop::getPosX(){
 int Bishop::getPosY(){
     return posY;
 }
+std::string Bishop::getFullName(){
+    return "Bishop";
+}

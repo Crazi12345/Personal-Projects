@@ -33,3 +33,6 @@ int Queen::getPosX(){
 int Queen::getPosY(){
     return posY;
 }
+std::string Queen::getFullName(){
+    return "Queen";
+}

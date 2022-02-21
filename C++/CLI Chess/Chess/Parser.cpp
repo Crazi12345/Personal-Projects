@@ -24,8 +24,9 @@ Parser::Parser() {
 
 }
 
-void Parser::Command() {
-
+void Parser::Command(Player c,Player a) {
+    current = c;
+    alternate = a;
     cout << "\nPlease Input a Command:";
     words.clear();
     string command;
@@ -36,12 +37,19 @@ void Parser::Command() {
     while (getline(checker, token, ' ')) {
         words.push_back(token);
     }
-    words.at(0) = wordOne;
-    words.at(1) = wordTwo;
-    words.at(2) = wordThree;
+    if(words.size()>0){
+           wordOne =words.at(0) ;
+           }
+    if(words.size()>1){
+         wordTwo=words.at(1);
+    }
+    if(words.size()>2){
+          wordThree=words.at(2);
+    }
 try {
-    if (words.at(0) == "select" && words.size() > 1) {
+    if (wordOne == "select" && words.size() > 1) {
         selectCommand();
+
         return;
     } else if (words.at(0) == "move" && words.size() > 2) {
 
@@ -49,12 +57,12 @@ try {
         helpCommand();
     } else {
         cout << "i dont understand" << endl;
-        Command();
+        Command(current,alternate);
 
     }
 }
 catch (exception e){
-    Command();
+    Command(current,alternate);
 }
 
 
@@ -70,6 +78,32 @@ void Parser::helpCommand() {
 }
 
 void Parser::selectCommand() {
+         auto key = letter.find(wordTwo.at(0));
+         int y = key->second-1;
+
+         int a  = static_cast<int>(wordTwo.at(1));
+         int x = (AsciiToInt(a)-1);
+
+         for(int i = 0; i<7;i++){
+                for(int j =0; j<7;j++){
+                    for(int k = 0; k<current.getPieces().size();k++){
+                       if(current.getPieces().at(k)->getPosX()==x && current.getPieces().at(k)->getPosY()==y){
+                          if(current.getName() == 'w'){
+                              cout << "White ";
+                          }
+                          else{
+                              cout << "Black ";
+                          }
+                          cout << current.getPieces().at(k)->getFullName();
+                           return;
+                       }
+
+                    }
+                }
+            }
+         cout << "does not exits or is opponents piece"<<endl;
+         Command(current,alternate);
+         return;
 
    }
 

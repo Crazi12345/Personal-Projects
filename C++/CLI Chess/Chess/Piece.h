@@ -13,6 +13,7 @@ public:
     virtual std::string getName()=0;
     virtual int getPosX()=0;
     virtual int getPosY()=0;
+    virtual std::string getFullName()=0;
 private:
     char type;
     char color;

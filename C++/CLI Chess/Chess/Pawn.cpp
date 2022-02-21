@@ -29,3 +29,6 @@ int Pawn::getPosX(){
 int Pawn::getPosY(){
     return posY;
 }
+std::string Pawn::getFullName(){
+    return "Pawn";
+}

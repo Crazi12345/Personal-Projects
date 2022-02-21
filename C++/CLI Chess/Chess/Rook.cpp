@@ -35,3 +35,6 @@ int Rook::getPosY(){
     return posY;
 }
 
+std::string Rook::getFullName(){
+    return "Rook";
+}

@@ -34,3 +34,6 @@ int Knight::getPosX(){
 int Knight::getPosY(){
     return posY;
 }
+std::string Knight::getFullName(){
+    return "Knight";
+}

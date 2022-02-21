@@ -12,6 +12,7 @@ public:
     virtual std::string getName() override;
     virtual int getPosX()override;
     virtual int getPosY()override;
+    virtual std::string getFullName() override;
 private:
     char type;
     char color;
