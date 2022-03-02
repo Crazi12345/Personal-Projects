@@ -35,3 +35,17 @@ int Bishop::getPosY(){
 std::string Bishop::getFullName(){
     return "Bishop";
 }
+
+bool Bishop::validMove(int posX, int posY)
+{
+  int X = (this->getPosX()-posX);
+  X = X*X;
+  int Y = (this->getPosY()-posY);
+  Y=Y*Y;
+
+  if(X==Y){
+
+      return true;
+  }
+  else {return false;}
+}

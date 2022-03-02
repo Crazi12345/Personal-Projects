@@ -33,3 +33,34 @@ int King::getPosY(){
 std::string King::getFullName(){
     return "King";
 }
+
+bool King::validMove(int posX, int posY)
+{
+  if(posX == this->getPosX()+1 && posY == this->getPosY()+1)
+  {
+      return true;
+  }
+  else if(posX == this->getPosX()-1 && posY == this->getPosY()-1)
+  {
+      return true;
+  }
+  else if(posX == this->getPosX() && posY == this->getPosY()-1)
+  {
+      return true;
+  }
+  else if(posX == this->getPosX()-1 && posY == this->getPosY())
+  {
+      return true;
+  }
+  else if(posX == this->getPosX()+1 && posY == this->getPosY())
+  {
+      return true;
+  }
+  else if(posX == this->getPosX() && posY == this->getPosY()+1)
+  {
+      return true;
+  }
+  else{
+      return false;
+  }
+}

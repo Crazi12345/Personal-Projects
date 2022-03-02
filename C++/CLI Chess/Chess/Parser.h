@@ -15,6 +15,7 @@ public:
     Parser();
     void Command(Player c, Player a);
     void selectCommand();
+    Piece* Find(int x,int y);
     void moveCommand();
     void helpCommand();
     int AsciiToInt(int ascii);

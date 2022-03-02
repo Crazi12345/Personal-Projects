@@ -13,6 +13,7 @@ public:
     virtual int getPosX()override;
     virtual int getPosY()override;
     virtual std::string getFullName() override;
+     virtual bool validMove(int posX, int posY) override;
 private:
     char type;
     char color;

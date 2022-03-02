@@ -26,16 +26,16 @@ this->name=name;
 std::vector<Piece*> Player::createPieces() {
     int place;
     if(name == 'w'){
-       place = 0;
+       place = 7;
     for (int i = 0; i < 8; i++) {
-       pieces.push_back(new Pawn(1, i, 'P', name));
+       pieces.push_back(new Pawn(6, i, 'P', name));
         }
     }
     else{
-        place = 7;
+        place = 0;
         for (int i = 0; i < 8; i++) {
 
-                pieces.push_back(new Pawn(6, i, 'P', name));
+                pieces.push_back(new Pawn(1, i, 'P', name));
             }}
 
          /*
@@ -49,7 +49,7 @@ std::vector<Piece*> Player::createPieces() {
            Knight n(place, 1, 'N', name);
            Knight nn(place, 6, 'N', name);
 */
-           pieces.push_back(new King(place,4,'P',name));
+           pieces.push_back(new King(place,4,'K',name));
            pieces.push_back(new Queen(place, 3, 'Q', name));
            pieces.push_back(new Bishop(place, 2, 'B', name));
            pieces.push_back(new Bishop(place, 5, 'B', name));

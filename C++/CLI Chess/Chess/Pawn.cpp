@@ -32,3 +32,23 @@ int Pawn::getPosY(){
 std::string Pawn::getFullName(){
     return "Pawn";
 }
+
+bool Pawn::validMove(int posX, int posY)
+{
+      if(this->getColor()=='w'){
+          if(posY == this->getPosY()+1){
+              return true;
+          }
+          else{
+              return false;
+          }
+      }
+      else {
+          if(posY == this->getPosY()-1){
+              return true;
+          }
+          else{
+              return false;
+          }
+      }
+}

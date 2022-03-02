@@ -52,7 +52,7 @@ try {
 
         return;
     } else if (words.at(0) == "move" && words.size() > 2) {
-
+         moveCommand();
     } else if (words.at(0) == "help" && words.size() > 0) {
         helpCommand();
     } else {
@@ -110,44 +110,57 @@ void Parser::selectCommand() {
 
 void Parser::moveCommand(){
 
+    auto key = letter.find(wordTwo.at(0));
+    int y = key->second-1;
+
+    int a  = static_cast<int>(wordTwo.at(1));
+    int x = (AsciiToInt(a)-1);
+
+    auto secondKey = letter.find(wordThree.at(0));
+    int secondY = secondKey->second-1;
+
+    int b  = static_cast<int>(wordThree.at(1));
+    int secondX = (AsciiToInt(b)-1);
+
+    Piece* selected = Find(x,y);
+if(selected->validMove(secondX,secondY)==true){
+    cout << "Moveable"<< endl;
+}
+else {
+    cout << "Unmoveable" << endl;
+}
+Command(current,alternate);
 }
 
 
+Piece* Parser::Find(int x, int y){
 
+    for(int i = 0; i<7;i++){
+           for(int j =0; j<7;j++){
+               for(int k = 0; k<current.getPieces().size();k++){
+                  if(current.getPieces().at(k)->getPosX()==x && current.getPieces().at(k)->getPosY()==y){
+
+                      return current.getPieces().at(k);
+                  }
+
+               }
+           }
+       }
+    cout << "does not exits or is opponents piece"<<endl;
+    Command(current,alternate);
+    Piece* tmp;
+    return tmp;
+
+
+
+}
 void Parser::printWord() {
 
     for (int i = 0; i < words.size(); i++) {
         cout << words.at(i) << endl;
     }
 }
-/*
-void Parser::printPieceName(Piece piece){
-    int switcher = static_cast<int>(piece.getName().at(0));
-    switch (switcher) {
-    case 'R':
-        cout << current.getFullName() << "  "<< "Rook" << endl;
-        break;
-    case 'H':
-        cout << current.getFullName() << "  "<< "Knight" << endl;
-        break;
-    case 'B':
-        cout << current.getFullName() << "  "<< "Bishop" << endl;
-        break;
-    case 'Q':
-        cout << current.getFullName() << "  "<< "Queen" << endl;
-        break;
-    case 'K':
-        cout << current.getFullName() << "  "<< "King" << endl;
-        break;
-    case 'P':
-        cout << current.getFullName() << "  "<< "Pawn" << endl;
-        break;
-    default:
 
-        break;
-    }
-}
-*/
 int Parser::AsciiToInt(int ascii) {
 
     switch(ascii){

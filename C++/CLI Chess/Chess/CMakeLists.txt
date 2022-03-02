@@ -16,4 +16,6 @@ add_executable(Chess
     Bishop.h Bishop.cpp
     Rook.h Rook.cpp
     Knight.h Knight.cpp
+
     )
+

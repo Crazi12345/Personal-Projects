@@ -38,3 +38,20 @@ int Rook::getPosY(){
 std::string Rook::getFullName(){
     return "Rook";
 }
+
+bool Rook::validMove(int posX, int posY){
+
+int X = this->getPosX()-posX;
+int Y = posY-this->getPosY();
+
+if(X==0 && Y!=0){
+    return true;
+}
+else if(X!=0 && Y==0){
+    return true;
+}
+else{
+
+return false;
+}
+}

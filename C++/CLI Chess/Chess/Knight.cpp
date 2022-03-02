@@ -37,3 +37,33 @@ int Knight::getPosY(){
 std::string Knight::getFullName(){
     return "Knight";
 }
+
+bool Knight::validMove(int posX, int posY){
+
+    if(posX == this->getPosX()+2 && posY == this->getPosY()+1){
+        return true;
+    }
+    else if(posX == this->getPosX()-2 && posY == this->getPosY()-1){
+        return true;
+    }
+    else if(posX == this->getPosX()+2 && posY == this->getPosY()-1){
+        return true;
+    }
+    else if(posX == this->getPosX()-2 && posY == this->getPosY()+1){
+        return true;
+    }
+    else if(posX == this->getPosX()-1 && posY == this->getPosY()-2){
+        return true;
+    }
+    else if(posX == this->getPosX()+1 && posY == this->getPosY()-2){
+        return true;
+    }
+    else if(posX == this->getPosX()+1 && posY == this->getPosY()+2){
+        return true;
+    }
+    else if(posX == this->getPosX()-1 && posY == this->getPosY()+2){
+        return true;
+    }
+    else {return false;}
+
+}

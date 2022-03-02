@@ -36,3 +36,26 @@ int Queen::getPosY(){
 std::string Queen::getFullName(){
     return "Queen";
 }
+
+bool Queen::validMove(int posX, int posY)
+{
+
+    int X = posX;
+    int Y = posY;
+    if(X==0 && Y!=0){
+        return true;
+    }
+    else if(X!=0 && Y==0){
+        return true;
+    }
+    else{
+
+        int X = (this->getPosX()-posX);
+        X = X*X;
+        int Y = (this->getPosY()-posY);
+        if(X==Y){
+            return true;
+        }
+        else {return false;}
+    }
+}

@@ -25,3 +25,9 @@ add_executable(Chess
         Chess/header/Pieces/Queen.h
         Chess/Rook.cpp
         Chess/header/Pieces/Rook.h Chess/Parser.cpp Chess/header/Parser.h Chess/Player.cpp Chess/header/Player.h)
+
+
+       
+
+
+        

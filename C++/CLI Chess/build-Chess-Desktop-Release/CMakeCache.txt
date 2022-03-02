@@ -226,8 +226,20 @@ Chess_SOURCE_DIR:STATIC=/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Ches
 //Skip Qt Creator's package manager auto-setup
 QT_CREATOR_SKIP_PACKAGE_MANAGER_SETUP:BOOL=OFF
 
+//The directory containing a CMake configuration file for QT.
+QT_DIR:PATH=/usr/lib64/cmake/Qt5
+
 //No help, variable specified on the command line.
 QT_QMAKE_EXECUTABLE:STRING=/usr/bin/qmake
+
+//The directory containing a CMake configuration file for Qt5Core.
+Qt5Core_DIR:PATH=/usr/lib64/cmake/Qt5Core
+
+//The directory containing a CMake configuration file for Qt5Test.
+Qt5Test_DIR:PATH=/usr/lib64/cmake/Qt5Test
+
+//The directory containing a CMake configuration file for Qt5.
+Qt5_DIR:PATH=/usr/lib64/cmake/Qt5
 
 
 ########################
