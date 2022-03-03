@@ -13,7 +13,7 @@
 class Parser {
 public:
     Parser();
-    void Command(Player c, Player a);
+    void Command(Player* c, Player* a);
     void selectCommand();
     Piece* Find(int x,int y);
     void moveCommand();
@@ -29,8 +29,8 @@ private:
     std::string wordTwo;
     std::string wordThree;
     std::map<char,int> letter;
-    Player current;
-    Player alternate;
+    Player* current;
+    Player* alternate;
 
 };
 

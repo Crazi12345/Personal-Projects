@@ -55,3 +55,10 @@ else{
 return false;
 }
 }
+
+void Rook::setPosX(int value){
+        posX = value;
+}
+void Rook::setPosY(int value){
+        posY = value;
+}

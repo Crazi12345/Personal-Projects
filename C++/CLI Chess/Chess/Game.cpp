@@ -34,8 +34,11 @@ void Game::Play() {
     else {
         cout << "Black's turn"<<endl;
     }
+    board.resetBoard();
+      PlacePieces();
     board.PrettyPrint();
-    parser.Command(currentPlayer,alternatePlayer);
+
+    parser.Command(&currentPlayer,&alternatePlayer);
     cout << "\nPlease press any key to continue...";
 
     cin.get();
@@ -47,6 +50,7 @@ void Game::Play() {
 
 
 void Game::PlacePieces(){
+
     for(int i = 0; i<currentPlayer.getPieces().size();i++){
 
            Piece* ptr = currentPlayer.getPieces().at(i);

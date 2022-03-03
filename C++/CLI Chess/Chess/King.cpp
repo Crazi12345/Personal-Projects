@@ -64,3 +64,10 @@ bool King::validMove(int posX, int posY)
       return false;
   }
 }
+
+void King::setPosX(int value){
+        posX = value;
+}
+void King::setPosY(int value){
+        posY = value;
+}

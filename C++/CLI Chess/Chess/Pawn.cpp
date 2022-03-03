@@ -2,8 +2,8 @@
 
 Pawn::Pawn(int posX, int posY, char type,char color)
 {
-        this->color = color;
-        this->type = type;
+    this->color = color;
+    this->type = type;
     this->posX = posX;
     this->posY = posY;
 }
@@ -51,4 +51,10 @@ bool Pawn::validMove(int posX, int posY)
               return false;
           }
       }
+}
+void Pawn::setPosX(int value){
+        posX = value;
+}
+void Pawn::setPosY(int value){
+        posY = value;
 }

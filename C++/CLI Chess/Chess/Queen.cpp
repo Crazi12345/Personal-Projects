@@ -39,9 +39,9 @@ std::string Queen::getFullName(){
 
 bool Queen::validMove(int posX, int posY)
 {
+    int X = this->getPosX()-posX;
+    int Y = posY-this->getPosY();
 
-    int X = posX;
-    int Y = posY;
     if(X==0 && Y!=0){
         return true;
     }
@@ -49,6 +49,8 @@ bool Queen::validMove(int posX, int posY)
         return true;
     }
     else{
+
+
 
         int X = (this->getPosX()-posX);
         X = X*X;
@@ -58,4 +60,10 @@ bool Queen::validMove(int posX, int posY)
         }
         else {return false;}
     }
+}
+void Queen::setPosX(int value){
+        posX = value;
+}
+void Queen::setPosY(int value){
+        posY = value;
 }

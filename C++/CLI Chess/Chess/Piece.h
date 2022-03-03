@@ -15,6 +15,8 @@ public:
     virtual int getPosY()=0;
     virtual std::string getFullName()=0;
     virtual bool validMove(int posX, int posY) = 0;
+    virtual void setPosX(int val)=0;
+    virtual void setPosY(int val)=0;
 private:
     char type;
     char color;

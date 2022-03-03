@@ -12,7 +12,7 @@ public:
     Board();
     void PrettyPrint();
     void setField(int x, int y, string piece);
-
+    void resetBoard();
 
 
 private:

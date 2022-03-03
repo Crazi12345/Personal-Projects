@@ -24,7 +24,7 @@ Parser::Parser() {
 
 }
 
-void Parser::Command(Player c,Player a) {
+void Parser::Command(Player* c,Player* a) {
     current = c;
     alternate = a;
     cout << "\nPlease Input a Command:";
@@ -86,15 +86,15 @@ void Parser::selectCommand() {
 
          for(int i = 0; i<7;i++){
                 for(int j =0; j<7;j++){
-                    for(int k = 0; k<current.getPieces().size();k++){
-                       if(current.getPieces().at(k)->getPosX()==x && current.getPieces().at(k)->getPosY()==y){
-                          if(current.getName() == 'w'){
+                    for(int k = 0; k<current->getPieces().size();k++){
+                       if(current->getPieces().at(k)->getPosX()==x && current->getPieces().at(k)->getPosY()==y){
+                          if(current->getName() == 'w'){
                               cout << "White ";
                           }
                           else{
                               cout << "Black ";
                           }
-                          cout << current.getPieces().at(k)->getFullName();
+                          cout << current->getPieces().at(k)->getFullName();
                            return;
                        }
 
@@ -124,12 +124,14 @@ void Parser::moveCommand(){
 
     Piece* selected = Find(x,y);
 if(selected->validMove(secondX,secondY)==true){
-    cout << "Moveable"<< endl;
+   selected->setPosX(secondX);
+   selected->setPosY(secondY);
 }
 else {
     cout << "Unmoveable" << endl;
+    Command(current,alternate);
 }
-Command(current,alternate);
+
 }
 
 
@@ -137,10 +139,10 @@ Piece* Parser::Find(int x, int y){
 
     for(int i = 0; i<7;i++){
            for(int j =0; j<7;j++){
-               for(int k = 0; k<current.getPieces().size();k++){
-                  if(current.getPieces().at(k)->getPosX()==x && current.getPieces().at(k)->getPosY()==y){
+               for(int k = 0; k<current->getPieces().size();k++){
+                  if(current->getPieces().at(k)->getPosX()==x && current->getPieces().at(k)->getPosY()==y){
 
-                      return current.getPieces().at(k);
+                      return current->getPieces().at(k);
                   }
 
                }

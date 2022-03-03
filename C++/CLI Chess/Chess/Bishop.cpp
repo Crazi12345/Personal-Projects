@@ -49,3 +49,10 @@ bool Bishop::validMove(int posX, int posY)
   }
   else {return false;}
 }
+
+void Bishop::setPosX(int value){
+        posX = value;
+}
+void Bishop::setPosY(int value){
+        posY = value;
+}

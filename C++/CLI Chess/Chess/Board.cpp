@@ -39,3 +39,24 @@ void Board::setField(int x, int y, string piece)
     board[x][y] = "["+piece+"]";
 }
 
+void Board::resetBoard(){
+
+    for (int i = 0; i < 8; i++) {
+        for (int j = 0; j < 8; j++) {
+          board[i][j]= emptyBoard[i][j];
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

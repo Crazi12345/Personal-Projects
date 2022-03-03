@@ -67,3 +67,10 @@ bool Knight::validMove(int posX, int posY){
     else {return false;}
 
 }
+
+void Knight::setPosX(int value){
+        posX = value;
+}
+void Knight::setPosY(int value){
+        posY = value;
+}
