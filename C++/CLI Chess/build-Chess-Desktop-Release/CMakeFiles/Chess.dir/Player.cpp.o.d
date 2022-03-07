@@ -141,4 +141,5 @@ CMakeFiles/Chess.dir/Player.cpp.o: \
  /usr/include/c++/11.2.0/bits/stl_vector.h \
  /usr/include/c++/11.2.0/bits/stl_bvector.h \
  /usr/include/c++/11.2.0/bits/vector.tcc \
- /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Bishop.h
+ /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Bishop.h \
+ /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Board.h

@@ -16,7 +16,6 @@ public:
 
     Game();
     void Setup();
-    void PlacePieces();
     Player getCurrentPlayer();
     void SwitchPlayer();
 

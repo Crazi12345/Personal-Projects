@@ -9,10 +9,12 @@
 #include <vector>
 #include <map>
 #include "Player.h"
+#include "Board.h"
 
 class Parser {
 public:
     Parser();
+    Parser(Board* b);
     void Command(Player* c, Player* a);
     void selectCommand();
     Piece* Find(int x,int y);
@@ -31,6 +33,7 @@ private:
     std::map<char,int> letter;
     Player* current;
     Player* alternate;
+    Board* board;
 
 };
 

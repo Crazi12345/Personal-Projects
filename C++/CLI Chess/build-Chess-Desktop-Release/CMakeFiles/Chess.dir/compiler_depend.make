@@ -1158,6 +1158,7 @@ CMakeFiles/Chess.dir/Parser.cpp.o: /home/tired_atlas/Desktop/Personal-Projects/C
   /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Rook.h \
   /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Knight.h \
   /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Bishop.h \
+  /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Board.h \
   /usr/include/c++/11.2.0/sstream \
   /usr/include/c++/11.2.0/bits/sstream.tcc \
   /usr/include/unistd.h \
@@ -1724,7 +1725,8 @@ CMakeFiles/Chess.dir/Player.cpp.o: /home/tired_atlas/Desktop/Personal-Projects/C
   /usr/include/c++/11.2.0/bits/stl_vector.h \
   /usr/include/c++/11.2.0/bits/stl_bvector.h \
   /usr/include/c++/11.2.0/bits/vector.tcc \
-  /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Bishop.h
+  /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Bishop.h \
+  /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Board.h
 
 CMakeFiles/Chess.dir/Queen.cpp.o: /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Queen.cpp \
   /usr/include/stdc-predef.h \

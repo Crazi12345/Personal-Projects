@@ -13,7 +13,8 @@
 using namespace std;
 
 Player::Player(){}
-Player::Player(char name) {
+Player::Player(char name, Board* b) {
+    board = b;
 this->name=name;
     pieces = this->createPieces();
     //cout<<"pieces list: "<<pieces.size()<<endl;
@@ -68,4 +69,15 @@ std::vector<Piece*> Player::getPieces()
 
 char Player::getName(){
     return name;
+}
+void Player::PlacePieces(){
+
+    for(int i = 0; i<getPieces().size();i++){
+
+           Piece* ptr = getPieces().at(i);
+          board->setField(ptr->getPosX(),ptr->getPosY(),ptr->getName());
+
+    }
+
+
 }

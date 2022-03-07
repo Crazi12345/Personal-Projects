@@ -14,17 +14,20 @@
 #include "Knight.h"
 #include "Bishop.h"
 #include <iostream>
+#include "Board.h"
 
 class Player {
 public:
     Player();
-    Player(char name);
+    Player(char name,Board* b);
     std::vector<Piece*> createPieces();
     char getName();
+    void PlacePieces();
     std::vector<Piece*> getPieces();
 private:
 std::vector<Piece*> pieces;
     char name;
+    Board* board;
 };
 
 

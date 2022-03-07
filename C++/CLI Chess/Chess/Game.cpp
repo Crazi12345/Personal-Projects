@@ -13,16 +13,21 @@ using namespace std;
 
 
 Game::Game() {
+
+    Parser p(&board);
+    parser = p;
   }
 
 void Game::Setup() {
   //  board.PrettyPrint();
-     Player whitePlayer = Player('w');
-     Player blackPlayer = Player('b');
+     Player whitePlayer = Player('w',&board);
+     Player blackPlayer = Player('b',&board);
      currentPlayer = whitePlayer;
      alternatePlayer = blackPlayer;
-   //cout<<"pieces list: "<<currentPlayer.getPieces().size()<<endl;
-    PlacePieces();
+   //cout<<"pieces list: "<<c¨urrentPlayer.getPieces().size()<<endl;
+   // PlacePieces();
+     currentPlayer.PlacePieces();
+     alternatePlayer.PlacePieces();
         //board.PrettyPrint();
     Play();
 }
@@ -35,7 +40,8 @@ void Game::Play() {
         cout << "Black's turn"<<endl;
     }
     board.resetBoard();
-      PlacePieces();
+     currentPlayer.PlacePieces();
+     alternatePlayer.PlacePieces();
     board.PrettyPrint();
 
     parser.Command(&currentPlayer,&alternatePlayer);
@@ -48,21 +54,6 @@ void Game::Play() {
 
 }
 
-
-void Game::PlacePieces(){
-
-    for(int i = 0; i<currentPlayer.getPieces().size();i++){
-
-           Piece* ptr = currentPlayer.getPieces().at(i);
-          board.setField(ptr->getPosX(),ptr->getPosY(),ptr->getName());
-
-    }
-    for(int i = 0; i<alternatePlayer.getPieces().size();i++){
-        Piece* ptr =alternatePlayer.getPieces().at(i);
-       board.setField(ptr->getPosX(),ptr->getPosY(),ptr->getName());
-    }
-
-}
 
 
 

@@ -11,8 +11,12 @@
 #include <map>
 using namespace std;
 
-Parser::Parser() {
 
+Parser::Parser(){
+
+}
+Parser::Parser(Board* b) {
+    board = b;
     letter.insert(pair<char, int>('a', 1));
     letter.insert(pair<char, int>('b', 2));
     letter.insert(pair<char, int>('c', 3));
@@ -84,24 +88,18 @@ void Parser::selectCommand() {
          int a  = static_cast<int>(wordTwo.at(1));
          int x = (AsciiToInt(a)-1);
 
-         for(int i = 0; i<7;i++){
-                for(int j =0; j<7;j++){
-                    for(int k = 0; k<current->getPieces().size();k++){
-                       if(current->getPieces().at(k)->getPosX()==x && current->getPieces().at(k)->getPosY()==y){
-                          if(current->getName() == 'w'){
-                              cout << "White ";
-                          }
-                          else{
-                              cout << "Black ";
-                          }
-                          cout << current->getPieces().at(k)->getFullName();
-                           return;
-                       }
+         for(int i = 0; i<8;i++){
+                for(int j =0; j<8;j++){
+                    if(Find(x,y)->validMove(i,j)){
 
+                        board->setField(i,j,"**");
                     }
                 }
             }
-         cout << "does not exits or is opponents piece"<<endl;
+         board->PrettyPrint();
+         board->resetBoard();
+         current->PlacePieces();
+         alternate->PlacePieces();
          Command(current,alternate);
          return;
 

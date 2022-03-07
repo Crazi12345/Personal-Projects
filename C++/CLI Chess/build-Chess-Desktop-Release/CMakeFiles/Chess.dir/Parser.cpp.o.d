@@ -151,6 +151,7 @@ CMakeFiles/Chess.dir/Parser.cpp.o: \
  /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Rook.h \
  /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Knight.h \
  /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Bishop.h \
+ /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Board.h \
  /usr/include/c++/11.2.0/sstream /usr/include/c++/11.2.0/bits/sstream.tcc \
  /usr/include/unistd.h /usr/include/bits/posix_opt.h \
  /usr/include/bits/environments.h /usr/include/bits/confname.h \
