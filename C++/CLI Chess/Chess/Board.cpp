@@ -2,7 +2,7 @@
 // Created by patri on 15-11-2021.
 //
 
-#include "header/Board.h"
+#include "Board.h"
 #include <iostream>
 using namespace std;
 
@@ -23,7 +23,7 @@ void Board::PrettyPrint() {
         for (int j = 0; j < 8; j++) {
             cout << board[i][j]<<"  ";
         }
-        cout << "  " << 8-i << '\n' << endl;
+        cout << "  " << 1+i << '\n' << endl;
     }
     string letters = "abcdefgh";
     cout << "  ";
@@ -38,4 +38,25 @@ void Board::setField(int x, int y, string piece)
 {
     board[x][y] = "["+piece+"]";
 }
+
+void Board::resetBoard(){
+
+    for (int i = 0; i < 8; i++) {
+        for (int j = 0; j < 8; j++) {
+          board[i][j]= emptyBoard[i][j];
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -2,69 +2,67 @@
 // Created by Patrick Larsen on 15-11-2021.
 //
 
-#include "header/Game.h"
+#include "Game.h"
+#include "Player.h"
 #include <iostream>
 #include <unistd.h>
 #include <chrono>
 #include <thread>
+#include <stdlib.h>
 using namespace std;
 
 
 Game::Game() {
-    Player Black('b');
-    Player White('w');
-    this->White = White;
-    this->Black = Black;
-    Board b;
-     board=b;
-    Parser p;
-      parser=p;
-      currentPlayer = White;
-}
+
+    Parser p(&board);
+    parser = p;
+  }
 
 void Game::Setup() {
-    board.PrettyPrint();
-
-    PlacePieces(board);
-    board.PrettyPrint();
-
+  //  board.PrettyPrint();
+     Player whitePlayer = Player('w',&board);
+     Player blackPlayer = Player('b',&board);
+     currentPlayer = whitePlayer;
+     alternatePlayer = blackPlayer;
+   //cout<<"pieces list: "<<c¨urrentPlayer.getPieces().size()<<endl;
+   // PlacePieces();
+     currentPlayer.PlacePieces();
+     alternatePlayer.PlacePieces();
+        //board.PrettyPrint();
     Play();
 }
 
 void Game::Play() {
-   system("cls");
-    this_thread::sleep_for(chrono::milliseconds(300));
+    if(currentPlayer.getName()=='w'){
+    cout << "White's turn"<<endl;
+    }
+    else {
+        cout << "Black's turn"<<endl;
+    }
+    board.resetBoard();
+     currentPlayer.PlacePieces();
+     alternatePlayer.PlacePieces();
     board.PrettyPrint();
 
+    parser.Command(&currentPlayer,&alternatePlayer);
+    cout << "\nPlease press any key to continue...";
 
-    parser.Command(currentPlayer);
-
-   // cin.get();
-    SwitchCurrentPlayer();
+    cin.get();
+    SwitchPlayer();
+    system("clear");
     Play();
 
 }
 
 
-void Game::PlacePieces(Board &b) {
 
-    for (int i = 0; i < White.getPieces().size(); i++) {
-        b.setField(White.getPieces().at(i).getPosistionX(), White.getPieces().at(i).getPosistionY(), White.getPieces().at(i).getName());
-    }
-    for (int i = 0; i < Black.getPieces().size(); i++) {
-        b.setField(Black.getPieces().at(i).getPosistionX(), Black.getPieces().at(i).getPosistionY(), Black.getPieces().at(i).getName());
-    }
+
+Player Game::getCurrentPlayer(){
+    return currentPlayer;
 }
-
-
-void Game::SwitchCurrentPlayer() {
-
-    if(currentPlayer.getName() == 'w'){
-        currentPlayer=Black;
-    }
-    else{
-        currentPlayer=White;
-    }
-
+void Game::SwitchPlayer(){
+    Player temp;
+    temp = currentPlayer;
+    currentPlayer = alternatePlayer;
+    alternatePlayer = temp;
 }
-Player Game::getCurrentPlayer() {return currentPlayer;}

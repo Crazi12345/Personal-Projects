@@ -2,7 +2,7 @@
 // Created by patri on 19-11-2021.
 //
 
-#include "header/Parser.h"
+#include "Parser.h"
 #include <string>
 #include <iostream>
 #include <sstream>
@@ -11,8 +11,12 @@
 #include <map>
 using namespace std;
 
-Parser::Parser() {
 
+Parser::Parser(){
+
+}
+Parser::Parser(Board* b) {
+    board = b;
     letter.insert(pair<char, int>('a', 1));
     letter.insert(pair<char, int>('b', 2));
     letter.insert(pair<char, int>('c', 3));
@@ -24,7 +28,9 @@ Parser::Parser() {
 
 }
 
-void Parser::Command(Player current) {
+void Parser::Command(Player* c,Player* a) {
+    current = c;
+    alternate = a;
     cout << "\nPlease Input a Command:";
     words.clear();
     string command;
@@ -35,23 +41,35 @@ void Parser::Command(Player current) {
     while (getline(checker, token, ' ')) {
         words.push_back(token);
     }
+    if(words.size()>0){
+           wordOne =words.at(0) ;
+           }
+    if(words.size()>1){
+         wordTwo=words.at(1);
+    }
+    if(words.size()>2){
+          wordThree=words.at(2);
+    }
 try {
-    if (words.at(0) == "select" && words.size() > 1) {
-        selectCommand(current);
+    if (wordOne == "select" && words.size() > 1) {
+        selectCommand();
+
         return;
     } else if (words.at(0) == "move" && words.size() > 2) {
-
+         moveCommand();
     } else if (words.at(0) == "help" && words.size() > 0) {
         helpCommand();
     } else {
         cout << "i dont understand" << endl;
-        Command(current);
+        Command(current,alternate);
 
     }
 }
 catch (exception e){
-    Command(current);
+    Command(current,alternate);
 }
+
+
 }
 
 
@@ -63,33 +81,86 @@ void Parser::helpCommand() {
 
 }
 
-void Parser::selectCommand(Player current) {
-    auto key = (letter.find(words.at(1).at(0)));
-    int y = (key->second)-1;
+void Parser::selectCommand() {
+         auto key = letter.find(wordTwo.at(0));
+         int y = key->second-1;
 
-    int a  = static_cast<int>(words.at(1).at(1));
-    int x = (AsciiToInt(a)-1);
-    Piece selected;
-    for(int i = 0; i<7;i++){
-        for(int j =0; j<7;j++){
-            for(int k = 0; k<current.getPieces().size();k++){
-               if(current.getPieces().at(k).getPosistionX()==x && current.getPieces().at(k).getPosistionY()==y){
-                  cout << current.getPieces().at(k).getName()<< endl;
-                   return;
-               }
+         int a  = static_cast<int>(wordTwo.at(1));
+         int x = (AsciiToInt(a)-1);
 
+         for(int i = 0; i<8;i++){
+                for(int j =0; j<8;j++){
+                    if(Find(x,y)->validMove(i,j)){
+
+                        board->setField(i,j,"**");
+                    }
+                }
             }
-        }
-    }
-    cout << "through";
+         board->PrettyPrint();
+         board->resetBoard();
+         current->PlacePieces();
+         alternate->PlacePieces();
+         Command(current,alternate);
+         return;
+
+   }
+
+
+void Parser::moveCommand(){
+
+    auto key = letter.find(wordTwo.at(0));
+    int y = key->second-1;
+
+    int a  = static_cast<int>(wordTwo.at(1));
+    int x = (AsciiToInt(a)-1);
+
+    auto secondKey = letter.find(wordThree.at(0));
+    int secondY = secondKey->second-1;
+
+    int b  = static_cast<int>(wordThree.at(1));
+    int secondX = (AsciiToInt(b)-1);
+
+    Piece* selected = Find(x,y);
+if(selected->validMove(secondX,secondY)==true){
+   selected->setPosX(secondX);
+   selected->setPosY(secondY);
+}
+else {
+    cout << "Unmoveable" << endl;
+    Command(current,alternate);
 }
 
+}
+
+
+Piece* Parser::Find(int x, int y){
+
+    for(int i = 0; i<7;i++){
+           for(int j =0; j<7;j++){
+               for(int k = 0; k<current->getPieces().size();k++){
+                  if(current->getPieces().at(k)->getPosX()==x && current->getPieces().at(k)->getPosY()==y){
+
+                      return current->getPieces().at(k);
+                  }
+
+               }
+           }
+       }
+    cout << "does not exits or is opponents piece"<<endl;
+    Command(current,alternate);
+    Piece* tmp;
+    return tmp;
+
+
+
+}
 void Parser::printWord() {
 
     for (int i = 0; i < words.size(); i++) {
         cout << words.at(i) << endl;
     }
 }
+
 int Parser::AsciiToInt(int ascii) {
 
     switch(ascii){

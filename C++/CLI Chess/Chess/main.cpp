@@ -1,6 +1,6 @@
 #include <iostream>
-#include "header/Game.h"
-#include "header/Board.h"
+#include "Game.h"
+#include "Board.h"
 int main() {
 
   Game g;

@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.20)
+cmake_minimum_required(VERSION 3.18.4)
 project(Chess)
 
 set(CMAKE_CXX_STANDARD 14)
@@ -25,3 +25,9 @@ add_executable(Chess
         Chess/header/Pieces/Queen.h
         Chess/Rook.cpp
         Chess/header/Pieces/Rook.h Chess/Parser.cpp Chess/header/Parser.h Chess/Player.cpp Chess/header/Player.h)
+
+
+       
+
+
+        
