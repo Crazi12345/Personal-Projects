@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/patri/Skrivebord/Personal-Projects/Java/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/patri/Skrivebord/Personal-Projects/Java/app/src/main/res/layout/activity_plan_creator.xml" value="0.1595744680851064" />
+        <entry key="..\:/Users/patri/Skrivebord/Personal-Projects/Java/app/src/main/res/layout/fragment_dashboard.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/patri/Skrivebord/Personal-Projects/Java/app/src/main/res/layout/fragment_plan_generation.xml" value="0.1595744680851064" />
+        <entry key="..\:/Users/patri/Skrivebord/Personal-Projects/Java/app/src/main/res/layout/fragment_plans.xml" value="0.22" />
+        <entry key="..\:/Users/patri/Skrivebord/Personal-Projects/Java/app/src/main/res/layout/fragment_workouts.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/patri/Skrivebord/Personal-Projects/Java/app/src/main/res/menu/bottom_nav_menu.xml" value="0.287962962962963" />
+        <entry key="..\:/Users/patri/Skrivebord/Personal-Projects/Java/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
