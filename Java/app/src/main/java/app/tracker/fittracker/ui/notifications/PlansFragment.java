@@ -1,6 +1,5 @@
 package app.tracker.fittracker.ui.notifications;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,15 +13,16 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
-import app.tracker.fittracker.MainActivity;
 import app.tracker.fittracker.R;
 import app.tracker.fittracker.databinding.FragmentPlansBinding;
+import app.tracker.fittracker.ui.FragmentHolder;
+import app.tracker.fittracker.ui.plans.PlanGeneration;
 
 public class PlansFragment extends Fragment  {
     private FragmentPlansBinding binding;
 FragmentController fragmentController;
+FragmentHolder fh = FragmentHolder.object;
 
-    private Fragment f = new PlanGeneration();
     private FloatingActionButton newPlanButton;
     private TextView testView;
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -38,14 +38,14 @@ FragmentController fragmentController;
         newPlanButton = binding.newPlanButton;
         testView = binding.testView;
 
-
+        fh.removePlansFragment();
         newPlanButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 testView.setText("Gains");
                 FragmentTransaction ft  = getParentFragmentManager().beginTransaction();
-
-                ft.replace(R.id.nav_host_fragment_activity_main,getFragment());
+                fh.newPlansfragment();
+                ft.replace(R.id.nav_host_fragment_activity_main,fh.getPlansFragment());
                 ft.commit();
             }
         });
@@ -53,9 +53,7 @@ FragmentController fragmentController;
         return root;
 
     }
-    public Fragment getFragment(){
-        return f;
-    }
+
 
 
     @Override

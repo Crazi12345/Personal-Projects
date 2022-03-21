@@ -8,15 +8,14 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.ViewModelProvider;
 
-import app.tracker.fittracker.R;
 import app.tracker.fittracker.databinding.FragmentWorkoutsBinding;
-import app.tracker.fittracker.ui.notifications.PlanGeneration;
+import app.tracker.fittracker.ui.FragmentHolder;
+import app.tracker.fittracker.ui.plans.PlanGeneration;
 
 public class WorkoutsFragment extends Fragment {
-
+    FragmentHolder fh = FragmentHolder.object;
     private FragmentWorkoutsBinding binding;
     private Fragment f = new PlanGeneration();
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -26,6 +25,10 @@ public class WorkoutsFragment extends Fragment {
 
         binding = FragmentWorkoutsBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
+
+            fh.removePlansFragment();
+            System.out.println("arrived");
+
 
         final TextView textView = binding.textHome;
         workoutsViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);

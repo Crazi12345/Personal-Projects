@@ -24,7 +24,7 @@
         tools:layout="@layout/fragment_plans" />
     <fragment
         android:id="@+id/planGeneration"
-        android:name="app.tracker.fittracker.ui.notifications.PlanGeneration"
+        android:name="app.tracker.fittracker.ui.plans.PlanGeneration"
         android:label="fragment_plan_generation"
         tools:layout="@layout/activity_plan_creator" />
 </navigation>
