@@ -12,7 +12,7 @@ public:
     virtual int getPosX()override;
     virtual int getPosY()override;
     virtual std::string getFullName() override;
-     virtual bool validMove(int posX, int posY) override;
+    virtual bool validMove(int posX, int posY) override;
     virtual void setPosX(int val)override;
     virtual void setPosY(int val)override;
 private:

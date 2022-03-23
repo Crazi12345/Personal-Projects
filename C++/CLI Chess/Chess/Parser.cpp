@@ -82,25 +82,42 @@ void Parser::helpCommand() {
 }
 
 void Parser::selectCommand() {
+    int patterns[22][2]={{1,0},{1,1},
+                         {0,-1},{1,-1},
+                         {-1,0},{-1,1},
+                         {0,1},{-1,-1},
+                         {-1,2},{-2,1},
+                         {1,2},{2,1},
+                         {-1,-2},{-2,-1},
+                         {1,-2},{2,-1},
+                         {-1,0},{1,0},
+                         {-1,1},{1,-1},
+                         {-1,-1},{1,1}};
          auto key = letter.find(wordTwo.at(0));
          int y = key->second-1;
-
          int a  = static_cast<int>(wordTwo.at(1));
          int x = (AsciiToInt(a)-1);
+         Piece* piece  =  Find(x,y,current);
 
-         for(int i = 0; i<8;i++){
-                for(int j =0; j<8;j++){
-                    if(Find(x,y)->validMove(i,j)){
 
-                        board->setField(i,j,"**");
-                    }
-                }
-            }
-         board->PrettyPrint();
-         board->resetBoard();
-         current->PlacePieces();
-         alternate->PlacePieces();
-         Command(current,alternate);
+         int start;
+         int stop;
+         int step;
+         int limit;
+
+         switch (piece->getType()) {
+
+         }
+         for(int i =0+start; i<0+stop;i+=step){
+             for(int j = 0; j<limit;j++){
+                 if(Find(x+patterns[i][0],patterns[i][1],alternate)!=nullptr){
+
+                 }
+             }
+         }
+
+
+       endCommand();
          return;
 
    }
@@ -120,7 +137,7 @@ void Parser::moveCommand(){
     int b  = static_cast<int>(wordThree.at(1));
     int secondX = (AsciiToInt(b)-1);
 
-    Piece* selected = Find(x,y);
+    Piece* selected = Find(x,y,current);
 if(selected->validMove(secondX,secondY)==true){
    selected->setPosX(secondX);
    selected->setPosY(secondY);
@@ -133,27 +150,31 @@ else {
 }
 
 
-Piece* Parser::Find(int x, int y){
+Piece* Parser::Find(int x, int y,Player* player){
 
     for(int i = 0; i<7;i++){
            for(int j =0; j<7;j++){
-               for(int k = 0; k<current->getPieces().size();k++){
-                  if(current->getPieces().at(k)->getPosX()==x && current->getPieces().at(k)->getPosY()==y){
+               for(int k = 0; k<player->getPieces().size();k++){
+                  if(player->getPieces().at(k)->getPosX()==x && player->getPieces().at(k)->getPosY()==y){
 
-                      return current->getPieces().at(k);
+                      return player->getPieces().at(k);
                   }
 
                }
            }
        }
-    cout << "does not exits or is opponents piece"<<endl;
-    Command(current,alternate);
-    Piece* tmp;
+
+    Piece* tmp=nullptr;
     return tmp;
 
 
 
 }
+
+    
+
+
+
 void Parser::printWord() {
 
     for (int i = 0; i < words.size(); i++) {
@@ -187,4 +208,16 @@ int Parser::AsciiToInt(int ascii) {
     }
 
 
+}
+
+
+void Parser::endCommand(){
+    board->PrettyPrint();
+    board->resetBoard();
+    current->PlacePieces();
+    alternate->PlacePieces();
+    Command(current,alternate);
+    
+    
+    
 }

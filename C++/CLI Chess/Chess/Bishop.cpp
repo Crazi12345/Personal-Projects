@@ -54,5 +54,7 @@ void Bishop::setPosX(int value){
         posX = value;
 }
 void Bishop::setPosY(int value){
-        posY = value;
+    posY = value;
 }
+
+

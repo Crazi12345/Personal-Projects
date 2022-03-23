@@ -17,12 +17,14 @@ public:
     Parser(Board* b);
     void Command(Player* c, Player* a);
     void selectCommand();
-    Piece* Find(int x,int y);
+    Piece* Find(int x,int y,Player* player);
+    Piece* FindAlternate(int x, int y);
     void moveCommand();
     void helpCommand();
     int AsciiToInt(int ascii);
   //  void printPieceName(Piece piece);
     void printWord();
+    void endCommand();
 
 private:
     std::vector<std::string> words;
