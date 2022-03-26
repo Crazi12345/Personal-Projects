@@ -103,16 +103,71 @@ void Parser::selectCommand() {
          int start;
          int stop;
          int step;
-         int limit;
+         int limit=8;
 
          switch (piece->getType()) {
+         case 'P':
+              if(piece->getColor()== 'b'){
+                  start = 0;
+              }
+             break;
+         case 'N':
+             break;
+         case 'K':
+             start = 0;
+             stop = 8;
+             step =1;
+             limit=2;
+             break;
+         case 'Q':
+             start = 0;
+             stop = 8;
+             step =1;
+             break;
+         case 'R':
+             start = 0;
+             stop = 7;
+             step = 2;
+             break;
+         case 'B':
+             start = 1;
+             stop = 8;
+             step = 2;
+             limit = 7;
+             break;
 
          }
+         cout << start << stop << step <<endl;
+         int posX;
+         int posY;
+         int id=0;
          for(int i =0+start; i<0+stop;i+=step){
+             id++;
+              posX = x;
+              posY = y;
              for(int j = 0; j<limit;j++){
-                 if(Find(x+patterns[i][0],patterns[i][1],alternate)!=nullptr){
 
+                 if(posX>7||posY>7 || posX<0||posY<0){break;}
+
+                 if(Find(posX,posY,alternate)!=nullptr){
+
+
+                    string s(1,Find(posX,posY,alternate)->getType());
+                    board->setField(posX,posY,s+"*");
+                    cout << "READ" << endl;
+                    break;
                  }
+                 else{
+                    board->setField(posX,posY,"**");
+                 }
+                  cout <<id<<": "<< posX <<" "<< posY << endl;
+                 posX += patterns[i][0];
+                 posY += patterns[i][1];
+                /* board->PrettyPrint();
+                 board->resetBoard();
+                 current->PlacePieces();
+                 cin.get();*/
+
              }
          }
 
