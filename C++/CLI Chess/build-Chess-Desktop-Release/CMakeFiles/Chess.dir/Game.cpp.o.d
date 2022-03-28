@@ -1,7 +1,7 @@
 CMakeFiles/Chess.dir/Game.cpp.o: \
- /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Game.cpp \
+ /home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI\ Version/CLI\ Chess/Chess/Game.cpp \
  /usr/include/stdc-predef.h \
- /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Game.h \
+ /home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI\ Version/CLI\ Chess/Chess/Game.h \
  /usr/include/c++/11.2.0/vector \
  /usr/include/c++/11.2.0/bits/stl_algobase.h \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -42,7 +42,7 @@ CMakeFiles/Chess.dir/Game.cpp.o: \
  /usr/include/c++/11.2.0/bits/hash_bytes.h \
  /usr/include/c++/11.2.0/bits/range_access.h \
  /usr/include/c++/11.2.0/bits/vector.tcc \
- /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Board.h \
+ /home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI\ Version/CLI\ Chess/Chess/Board.h \
  /usr/include/c++/11.2.0/string /usr/include/c++/11.2.0/bits/stringfwd.h \
  /usr/include/c++/11.2.0/bits/char_traits.h \
  /usr/include/c++/11.2.0/bits/postypes.h /usr/include/c++/11.2.0/cwchar \
@@ -111,7 +111,7 @@ CMakeFiles/Chess.dir/Game.cpp.o: \
  /usr/include/asm-generic/errno-base.h /usr/include/bits/types/error_t.h \
  /usr/include/c++/11.2.0/bits/charconv.h \
  /usr/include/c++/11.2.0/bits/basic_string.tcc \
- /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Parser.h \
+ /home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI\ Version/CLI\ Chess/Chess/Parser.h \
  /usr/include/c++/11.2.0/map /usr/include/c++/11.2.0/bits/stl_tree.h \
  /usr/include/c++/11.2.0/ext/aligned_buffer.h \
  /usr/include/c++/11.2.0/bits/stl_map.h /usr/include/c++/11.2.0/tuple \
@@ -121,8 +121,8 @@ CMakeFiles/Chess.dir/Game.cpp.o: \
  /usr/include/c++/11.2.0/bits/invoke.h \
  /usr/include/c++/11.2.0/bits/stl_multimap.h \
  /usr/include/c++/11.2.0/bits/erase_if.h \
- /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Player.h \
- /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Piece.h \
+ /home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI\ Version/CLI\ Chess/Chess/Player.h \
+ /home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI\ Version/CLI\ Chess/Chess/Piece.h \
  /usr/include/c++/11.2.0/iostream /usr/include/c++/11.2.0/ostream \
  /usr/include/c++/11.2.0/ios /usr/include/c++/11.2.0/exception \
  /usr/include/c++/11.2.0/bits/exception_ptr.h \
@@ -147,11 +147,11 @@ CMakeFiles/Chess.dir/Game.cpp.o: \
  /usr/include/c++/11.2.0/bits/basic_ios.tcc \
  /usr/include/c++/11.2.0/bits/ostream.tcc /usr/include/c++/11.2.0/istream \
  /usr/include/c++/11.2.0/bits/istream.tcc \
- /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Pawn.h \
- /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/King.h \
- /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Rook.h \
- /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Knight.h \
- /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Bishop.h \
+ /home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI\ Version/CLI\ Chess/Chess/Pawn.h \
+ /home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI\ Version/CLI\ Chess/Chess/King.h \
+ /home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI\ Version/CLI\ Chess/Chess/Rook.h \
+ /home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI\ Version/CLI\ Chess/Chess/Knight.h \
+ /home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI\ Version/CLI\ Chess/Chess/Bishop.h \
  /usr/include/unistd.h /usr/include/bits/posix_opt.h \
  /usr/include/bits/environments.h /usr/include/bits/confname.h \
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \

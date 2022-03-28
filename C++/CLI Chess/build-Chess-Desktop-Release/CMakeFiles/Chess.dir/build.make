@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess"
+CMAKE_SOURCE_DIR = "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release"
@@ -70,172 +70,172 @@ include CMakeFiles/Chess.dir/progress.make
 include CMakeFiles/Chess.dir/flags.make
 
 CMakeFiles/Chess.dir/main.cpp.o: CMakeFiles/Chess.dir/flags.make
-CMakeFiles/Chess.dir/main.cpp.o: /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/main.cpp
+CMakeFiles/Chess.dir/main.cpp.o: /home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI\ Version/CLI\ Chess/Chess/main.cpp
 CMakeFiles/Chess.dir/main.cpp.o: CMakeFiles/Chess.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Chess.dir/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/main.cpp.o -MF CMakeFiles/Chess.dir/main.cpp.o.d -o CMakeFiles/Chess.dir/main.cpp.o -c "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/main.cpp"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/main.cpp.o -MF CMakeFiles/Chess.dir/main.cpp.o.d -o CMakeFiles/Chess.dir/main.cpp.o -c "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/main.cpp"
 
 CMakeFiles/Chess.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chess.dir/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/main.cpp" > CMakeFiles/Chess.dir/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/main.cpp" > CMakeFiles/Chess.dir/main.cpp.i
 
 CMakeFiles/Chess.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chess.dir/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/main.cpp" -o CMakeFiles/Chess.dir/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/main.cpp" -o CMakeFiles/Chess.dir/main.cpp.s
 
 CMakeFiles/Chess.dir/Board.cpp.o: CMakeFiles/Chess.dir/flags.make
-CMakeFiles/Chess.dir/Board.cpp.o: /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Board.cpp
+CMakeFiles/Chess.dir/Board.cpp.o: /home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI\ Version/CLI\ Chess/Chess/Board.cpp
 CMakeFiles/Chess.dir/Board.cpp.o: CMakeFiles/Chess.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Chess.dir/Board.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/Board.cpp.o -MF CMakeFiles/Chess.dir/Board.cpp.o.d -o CMakeFiles/Chess.dir/Board.cpp.o -c "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Board.cpp"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/Board.cpp.o -MF CMakeFiles/Chess.dir/Board.cpp.o.d -o CMakeFiles/Chess.dir/Board.cpp.o -c "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Board.cpp"
 
 CMakeFiles/Chess.dir/Board.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chess.dir/Board.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Board.cpp" > CMakeFiles/Chess.dir/Board.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Board.cpp" > CMakeFiles/Chess.dir/Board.cpp.i
 
 CMakeFiles/Chess.dir/Board.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chess.dir/Board.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Board.cpp" -o CMakeFiles/Chess.dir/Board.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Board.cpp" -o CMakeFiles/Chess.dir/Board.cpp.s
 
 CMakeFiles/Chess.dir/Game.cpp.o: CMakeFiles/Chess.dir/flags.make
-CMakeFiles/Chess.dir/Game.cpp.o: /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Game.cpp
+CMakeFiles/Chess.dir/Game.cpp.o: /home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI\ Version/CLI\ Chess/Chess/Game.cpp
 CMakeFiles/Chess.dir/Game.cpp.o: CMakeFiles/Chess.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Chess.dir/Game.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/Game.cpp.o -MF CMakeFiles/Chess.dir/Game.cpp.o.d -o CMakeFiles/Chess.dir/Game.cpp.o -c "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Game.cpp"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/Game.cpp.o -MF CMakeFiles/Chess.dir/Game.cpp.o.d -o CMakeFiles/Chess.dir/Game.cpp.o -c "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Game.cpp"
 
 CMakeFiles/Chess.dir/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chess.dir/Game.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Game.cpp" > CMakeFiles/Chess.dir/Game.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Game.cpp" > CMakeFiles/Chess.dir/Game.cpp.i
 
 CMakeFiles/Chess.dir/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chess.dir/Game.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Game.cpp" -o CMakeFiles/Chess.dir/Game.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Game.cpp" -o CMakeFiles/Chess.dir/Game.cpp.s
 
 CMakeFiles/Chess.dir/Parser.cpp.o: CMakeFiles/Chess.dir/flags.make
-CMakeFiles/Chess.dir/Parser.cpp.o: /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Parser.cpp
+CMakeFiles/Chess.dir/Parser.cpp.o: /home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI\ Version/CLI\ Chess/Chess/Parser.cpp
 CMakeFiles/Chess.dir/Parser.cpp.o: CMakeFiles/Chess.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Chess.dir/Parser.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/Parser.cpp.o -MF CMakeFiles/Chess.dir/Parser.cpp.o.d -o CMakeFiles/Chess.dir/Parser.cpp.o -c "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Parser.cpp"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/Parser.cpp.o -MF CMakeFiles/Chess.dir/Parser.cpp.o.d -o CMakeFiles/Chess.dir/Parser.cpp.o -c "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Parser.cpp"
 
 CMakeFiles/Chess.dir/Parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chess.dir/Parser.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Parser.cpp" > CMakeFiles/Chess.dir/Parser.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Parser.cpp" > CMakeFiles/Chess.dir/Parser.cpp.i
 
 CMakeFiles/Chess.dir/Parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chess.dir/Parser.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Parser.cpp" -o CMakeFiles/Chess.dir/Parser.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Parser.cpp" -o CMakeFiles/Chess.dir/Parser.cpp.s
 
 CMakeFiles/Chess.dir/Player.cpp.o: CMakeFiles/Chess.dir/flags.make
-CMakeFiles/Chess.dir/Player.cpp.o: /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Player.cpp
+CMakeFiles/Chess.dir/Player.cpp.o: /home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI\ Version/CLI\ Chess/Chess/Player.cpp
 CMakeFiles/Chess.dir/Player.cpp.o: CMakeFiles/Chess.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Chess.dir/Player.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/Player.cpp.o -MF CMakeFiles/Chess.dir/Player.cpp.o.d -o CMakeFiles/Chess.dir/Player.cpp.o -c "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Player.cpp"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/Player.cpp.o -MF CMakeFiles/Chess.dir/Player.cpp.o.d -o CMakeFiles/Chess.dir/Player.cpp.o -c "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Player.cpp"
 
 CMakeFiles/Chess.dir/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chess.dir/Player.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Player.cpp" > CMakeFiles/Chess.dir/Player.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Player.cpp" > CMakeFiles/Chess.dir/Player.cpp.i
 
 CMakeFiles/Chess.dir/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chess.dir/Player.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Player.cpp" -o CMakeFiles/Chess.dir/Player.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Player.cpp" -o CMakeFiles/Chess.dir/Player.cpp.s
 
 CMakeFiles/Chess.dir/Piece.cpp.o: CMakeFiles/Chess.dir/flags.make
-CMakeFiles/Chess.dir/Piece.cpp.o: /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Piece.cpp
+CMakeFiles/Chess.dir/Piece.cpp.o: /home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI\ Version/CLI\ Chess/Chess/Piece.cpp
 CMakeFiles/Chess.dir/Piece.cpp.o: CMakeFiles/Chess.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Chess.dir/Piece.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/Piece.cpp.o -MF CMakeFiles/Chess.dir/Piece.cpp.o.d -o CMakeFiles/Chess.dir/Piece.cpp.o -c "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Piece.cpp"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/Piece.cpp.o -MF CMakeFiles/Chess.dir/Piece.cpp.o.d -o CMakeFiles/Chess.dir/Piece.cpp.o -c "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Piece.cpp"
 
 CMakeFiles/Chess.dir/Piece.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chess.dir/Piece.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Piece.cpp" > CMakeFiles/Chess.dir/Piece.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Piece.cpp" > CMakeFiles/Chess.dir/Piece.cpp.i
 
 CMakeFiles/Chess.dir/Piece.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chess.dir/Piece.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Piece.cpp" -o CMakeFiles/Chess.dir/Piece.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Piece.cpp" -o CMakeFiles/Chess.dir/Piece.cpp.s
 
 CMakeFiles/Chess.dir/Pawn.cpp.o: CMakeFiles/Chess.dir/flags.make
-CMakeFiles/Chess.dir/Pawn.cpp.o: /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Pawn.cpp
+CMakeFiles/Chess.dir/Pawn.cpp.o: /home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI\ Version/CLI\ Chess/Chess/Pawn.cpp
 CMakeFiles/Chess.dir/Pawn.cpp.o: CMakeFiles/Chess.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Chess.dir/Pawn.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/Pawn.cpp.o -MF CMakeFiles/Chess.dir/Pawn.cpp.o.d -o CMakeFiles/Chess.dir/Pawn.cpp.o -c "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Pawn.cpp"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/Pawn.cpp.o -MF CMakeFiles/Chess.dir/Pawn.cpp.o.d -o CMakeFiles/Chess.dir/Pawn.cpp.o -c "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Pawn.cpp"
 
 CMakeFiles/Chess.dir/Pawn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chess.dir/Pawn.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Pawn.cpp" > CMakeFiles/Chess.dir/Pawn.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Pawn.cpp" > CMakeFiles/Chess.dir/Pawn.cpp.i
 
 CMakeFiles/Chess.dir/Pawn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chess.dir/Pawn.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Pawn.cpp" -o CMakeFiles/Chess.dir/Pawn.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Pawn.cpp" -o CMakeFiles/Chess.dir/Pawn.cpp.s
 
 CMakeFiles/Chess.dir/King.cpp.o: CMakeFiles/Chess.dir/flags.make
-CMakeFiles/Chess.dir/King.cpp.o: /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/King.cpp
+CMakeFiles/Chess.dir/King.cpp.o: /home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI\ Version/CLI\ Chess/Chess/King.cpp
 CMakeFiles/Chess.dir/King.cpp.o: CMakeFiles/Chess.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Chess.dir/King.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/King.cpp.o -MF CMakeFiles/Chess.dir/King.cpp.o.d -o CMakeFiles/Chess.dir/King.cpp.o -c "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/King.cpp"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/King.cpp.o -MF CMakeFiles/Chess.dir/King.cpp.o.d -o CMakeFiles/Chess.dir/King.cpp.o -c "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/King.cpp"
 
 CMakeFiles/Chess.dir/King.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chess.dir/King.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/King.cpp" > CMakeFiles/Chess.dir/King.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/King.cpp" > CMakeFiles/Chess.dir/King.cpp.i
 
 CMakeFiles/Chess.dir/King.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chess.dir/King.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/King.cpp" -o CMakeFiles/Chess.dir/King.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/King.cpp" -o CMakeFiles/Chess.dir/King.cpp.s
 
 CMakeFiles/Chess.dir/Queen.cpp.o: CMakeFiles/Chess.dir/flags.make
-CMakeFiles/Chess.dir/Queen.cpp.o: /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Queen.cpp
+CMakeFiles/Chess.dir/Queen.cpp.o: /home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI\ Version/CLI\ Chess/Chess/Queen.cpp
 CMakeFiles/Chess.dir/Queen.cpp.o: CMakeFiles/Chess.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Chess.dir/Queen.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/Queen.cpp.o -MF CMakeFiles/Chess.dir/Queen.cpp.o.d -o CMakeFiles/Chess.dir/Queen.cpp.o -c "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Queen.cpp"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/Queen.cpp.o -MF CMakeFiles/Chess.dir/Queen.cpp.o.d -o CMakeFiles/Chess.dir/Queen.cpp.o -c "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Queen.cpp"
 
 CMakeFiles/Chess.dir/Queen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chess.dir/Queen.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Queen.cpp" > CMakeFiles/Chess.dir/Queen.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Queen.cpp" > CMakeFiles/Chess.dir/Queen.cpp.i
 
 CMakeFiles/Chess.dir/Queen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chess.dir/Queen.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Queen.cpp" -o CMakeFiles/Chess.dir/Queen.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Queen.cpp" -o CMakeFiles/Chess.dir/Queen.cpp.s
 
 CMakeFiles/Chess.dir/Bishop.cpp.o: CMakeFiles/Chess.dir/flags.make
-CMakeFiles/Chess.dir/Bishop.cpp.o: /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Bishop.cpp
+CMakeFiles/Chess.dir/Bishop.cpp.o: /home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI\ Version/CLI\ Chess/Chess/Bishop.cpp
 CMakeFiles/Chess.dir/Bishop.cpp.o: CMakeFiles/Chess.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Chess.dir/Bishop.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/Bishop.cpp.o -MF CMakeFiles/Chess.dir/Bishop.cpp.o.d -o CMakeFiles/Chess.dir/Bishop.cpp.o -c "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Bishop.cpp"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/Bishop.cpp.o -MF CMakeFiles/Chess.dir/Bishop.cpp.o.d -o CMakeFiles/Chess.dir/Bishop.cpp.o -c "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Bishop.cpp"
 
 CMakeFiles/Chess.dir/Bishop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chess.dir/Bishop.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Bishop.cpp" > CMakeFiles/Chess.dir/Bishop.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Bishop.cpp" > CMakeFiles/Chess.dir/Bishop.cpp.i
 
 CMakeFiles/Chess.dir/Bishop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chess.dir/Bishop.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Bishop.cpp" -o CMakeFiles/Chess.dir/Bishop.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Bishop.cpp" -o CMakeFiles/Chess.dir/Bishop.cpp.s
 
 CMakeFiles/Chess.dir/Rook.cpp.o: CMakeFiles/Chess.dir/flags.make
-CMakeFiles/Chess.dir/Rook.cpp.o: /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Rook.cpp
+CMakeFiles/Chess.dir/Rook.cpp.o: /home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI\ Version/CLI\ Chess/Chess/Rook.cpp
 CMakeFiles/Chess.dir/Rook.cpp.o: CMakeFiles/Chess.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Chess.dir/Rook.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/Rook.cpp.o -MF CMakeFiles/Chess.dir/Rook.cpp.o.d -o CMakeFiles/Chess.dir/Rook.cpp.o -c "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Rook.cpp"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/Rook.cpp.o -MF CMakeFiles/Chess.dir/Rook.cpp.o.d -o CMakeFiles/Chess.dir/Rook.cpp.o -c "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Rook.cpp"
 
 CMakeFiles/Chess.dir/Rook.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chess.dir/Rook.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Rook.cpp" > CMakeFiles/Chess.dir/Rook.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Rook.cpp" > CMakeFiles/Chess.dir/Rook.cpp.i
 
 CMakeFiles/Chess.dir/Rook.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chess.dir/Rook.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Rook.cpp" -o CMakeFiles/Chess.dir/Rook.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Rook.cpp" -o CMakeFiles/Chess.dir/Rook.cpp.s
 
 CMakeFiles/Chess.dir/Knight.cpp.o: CMakeFiles/Chess.dir/flags.make
-CMakeFiles/Chess.dir/Knight.cpp.o: /home/tired_atlas/Desktop/Personal-Projects/C++/CLI\ Chess/Chess/Knight.cpp
+CMakeFiles/Chess.dir/Knight.cpp.o: /home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI\ Version/CLI\ Chess/Chess/Knight.cpp
 CMakeFiles/Chess.dir/Knight.cpp.o: CMakeFiles/Chess.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Chess.dir/Knight.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/Knight.cpp.o -MF CMakeFiles/Chess.dir/Knight.cpp.o.d -o CMakeFiles/Chess.dir/Knight.cpp.o -c "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Knight.cpp"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/Knight.cpp.o -MF CMakeFiles/Chess.dir/Knight.cpp.o.d -o CMakeFiles/Chess.dir/Knight.cpp.o -c "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Knight.cpp"
 
 CMakeFiles/Chess.dir/Knight.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chess.dir/Knight.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Knight.cpp" > CMakeFiles/Chess.dir/Knight.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Knight.cpp" > CMakeFiles/Chess.dir/Knight.cpp.i
 
 CMakeFiles/Chess.dir/Knight.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chess.dir/Knight.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Knight.cpp" -o CMakeFiles/Chess.dir/Knight.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Knight.cpp" -o CMakeFiles/Chess.dir/Knight.cpp.s
 
 # Object files for target Chess
 Chess_OBJECTS = \
@@ -281,6 +281,6 @@ CMakeFiles/Chess.dir/clean:
 .PHONY : CMakeFiles/Chess.dir/clean
 
 CMakeFiles/Chess.dir/depend:
-	cd "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess" "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess" "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release" "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release" "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/CMakeFiles/Chess.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess" "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess" "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release" "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release" "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/CMakeFiles/Chess.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Chess.dir/depend
 

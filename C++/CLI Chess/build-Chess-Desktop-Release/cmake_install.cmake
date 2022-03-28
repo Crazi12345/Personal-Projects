@@ -1,4 +1,4 @@
-# Install script for directory: /home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess
+# Install script for directory: /home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

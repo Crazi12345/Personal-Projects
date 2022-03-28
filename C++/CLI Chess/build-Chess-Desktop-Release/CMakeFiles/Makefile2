@@ -54,7 +54,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess"
+CMAKE_SOURCE_DIR = "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release"

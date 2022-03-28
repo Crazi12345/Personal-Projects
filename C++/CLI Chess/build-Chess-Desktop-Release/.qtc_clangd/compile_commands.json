@@ -7,7 +7,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-HukyIc/clang-uiheader-RchHIe",
+        "/tmp/QtCreator-IUfpsL/clang-uiheader-COvFLi",
         "-nostdinc",
         "-nostdinc++",
         "-DNDEBUG",
@@ -38,10 +38,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/main.cpp"
+        "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/main.cpp"
     ],
     "directory": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/.qtc_clangd",
-    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/main.cpp"
+    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/main.cpp"
 },
 {
     "arguments": [
@@ -51,7 +51,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-HukyIc/clang-uiheader-RchHIe",
+        "/tmp/QtCreator-IUfpsL/clang-uiheader-COvFLi",
         "-nostdinc",
         "-nostdinc++",
         "-DNDEBUG",
@@ -82,10 +82,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Board.cpp"
+        "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Board.cpp"
     ],
     "directory": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/.qtc_clangd",
-    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Board.cpp"
+    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Board.cpp"
 },
 {
     "arguments": [
@@ -95,7 +95,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-HukyIc/clang-uiheader-RchHIe",
+        "/tmp/QtCreator-IUfpsL/clang-uiheader-COvFLi",
         "-nostdinc",
         "-nostdinc++",
         "-DNDEBUG",
@@ -126,10 +126,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Game.cpp"
+        "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Game.cpp"
     ],
     "directory": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/.qtc_clangd",
-    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Game.cpp"
+    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Game.cpp"
 },
 {
     "arguments": [
@@ -139,7 +139,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-HukyIc/clang-uiheader-RchHIe",
+        "/tmp/QtCreator-IUfpsL/clang-uiheader-COvFLi",
         "-nostdinc",
         "-nostdinc++",
         "-DNDEBUG",
@@ -170,10 +170,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Parser.cpp"
+        "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Parser.cpp"
     ],
     "directory": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/.qtc_clangd",
-    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Parser.cpp"
+    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Parser.cpp"
 },
 {
     "arguments": [
@@ -183,7 +183,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-HukyIc/clang-uiheader-RchHIe",
+        "/tmp/QtCreator-IUfpsL/clang-uiheader-COvFLi",
         "-nostdinc",
         "-nostdinc++",
         "-DNDEBUG",
@@ -214,10 +214,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Player.cpp"
+        "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Player.cpp"
     ],
     "directory": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/.qtc_clangd",
-    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Player.cpp"
+    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Player.cpp"
 },
 {
     "arguments": [
@@ -227,7 +227,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-HukyIc/clang-uiheader-RchHIe",
+        "/tmp/QtCreator-IUfpsL/clang-uiheader-COvFLi",
         "-nostdinc",
         "-nostdinc++",
         "-DNDEBUG",
@@ -258,10 +258,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Piece.cpp"
+        "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Piece.cpp"
     ],
     "directory": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/.qtc_clangd",
-    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Piece.cpp"
+    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Piece.cpp"
 },
 {
     "arguments": [
@@ -271,7 +271,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-HukyIc/clang-uiheader-RchHIe",
+        "/tmp/QtCreator-IUfpsL/clang-uiheader-COvFLi",
         "-nostdinc",
         "-nostdinc++",
         "-DNDEBUG",
@@ -302,10 +302,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Pawn.cpp"
+        "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Pawn.cpp"
     ],
     "directory": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/.qtc_clangd",
-    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Pawn.cpp"
+    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Pawn.cpp"
 },
 {
     "arguments": [
@@ -315,7 +315,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-HukyIc/clang-uiheader-RchHIe",
+        "/tmp/QtCreator-IUfpsL/clang-uiheader-COvFLi",
         "-nostdinc",
         "-nostdinc++",
         "-DNDEBUG",
@@ -346,10 +346,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/King.cpp"
+        "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/King.cpp"
     ],
     "directory": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/.qtc_clangd",
-    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/King.cpp"
+    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/King.cpp"
 },
 {
     "arguments": [
@@ -359,7 +359,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-HukyIc/clang-uiheader-RchHIe",
+        "/tmp/QtCreator-IUfpsL/clang-uiheader-COvFLi",
         "-nostdinc",
         "-nostdinc++",
         "-DNDEBUG",
@@ -390,10 +390,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Queen.cpp"
+        "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Queen.cpp"
     ],
     "directory": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/.qtc_clangd",
-    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Queen.cpp"
+    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Queen.cpp"
 },
 {
     "arguments": [
@@ -403,7 +403,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-HukyIc/clang-uiheader-RchHIe",
+        "/tmp/QtCreator-IUfpsL/clang-uiheader-COvFLi",
         "-nostdinc",
         "-nostdinc++",
         "-DNDEBUG",
@@ -434,10 +434,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Bishop.cpp"
+        "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Bishop.cpp"
     ],
     "directory": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/.qtc_clangd",
-    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Bishop.cpp"
+    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Bishop.cpp"
 },
 {
     "arguments": [
@@ -447,7 +447,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-HukyIc/clang-uiheader-RchHIe",
+        "/tmp/QtCreator-IUfpsL/clang-uiheader-COvFLi",
         "-nostdinc",
         "-nostdinc++",
         "-DNDEBUG",
@@ -478,10 +478,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Rook.cpp"
+        "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Rook.cpp"
     ],
     "directory": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/.qtc_clangd",
-    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Rook.cpp"
+    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Rook.cpp"
 },
 {
     "arguments": [
@@ -491,7 +491,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-HukyIc/clang-uiheader-RchHIe",
+        "/tmp/QtCreator-IUfpsL/clang-uiheader-COvFLi",
         "-nostdinc",
         "-nostdinc++",
         "-DNDEBUG",
@@ -522,10 +522,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Knight.cpp"
+        "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Knight.cpp"
     ],
     "directory": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/.qtc_clangd",
-    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Knight.cpp"
+    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Knight.cpp"
 },
 {
     "arguments": [
@@ -535,7 +535,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-HukyIc/clang-uiheader-RchHIe",
+        "/tmp/QtCreator-IUfpsL/clang-uiheader-COvFLi",
         "-nostdinc",
         "-nostdinc++",
         "-DNDEBUG",
@@ -566,10 +566,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Board.h"
+        "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Board.h"
     ],
     "directory": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/.qtc_clangd",
-    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Board.h"
+    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Board.h"
 },
 {
     "arguments": [
@@ -579,7 +579,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-HukyIc/clang-uiheader-RchHIe",
+        "/tmp/QtCreator-IUfpsL/clang-uiheader-COvFLi",
         "-nostdinc",
         "-nostdinc++",
         "-DNDEBUG",
@@ -610,10 +610,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Game.h"
+        "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Game.h"
     ],
     "directory": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/.qtc_clangd",
-    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Game.h"
+    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Game.h"
 },
 {
     "arguments": [
@@ -623,7 +623,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-HukyIc/clang-uiheader-RchHIe",
+        "/tmp/QtCreator-IUfpsL/clang-uiheader-COvFLi",
         "-nostdinc",
         "-nostdinc++",
         "-DNDEBUG",
@@ -654,10 +654,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Parser.h"
+        "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Parser.h"
     ],
     "directory": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/.qtc_clangd",
-    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Parser.h"
+    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Parser.h"
 },
 {
     "arguments": [
@@ -667,7 +667,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-HukyIc/clang-uiheader-RchHIe",
+        "/tmp/QtCreator-IUfpsL/clang-uiheader-COvFLi",
         "-nostdinc",
         "-nostdinc++",
         "-DNDEBUG",
@@ -698,10 +698,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Player.h"
+        "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Player.h"
     ],
     "directory": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/.qtc_clangd",
-    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Player.h"
+    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Player.h"
 },
 {
     "arguments": [
@@ -711,7 +711,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-HukyIc/clang-uiheader-RchHIe",
+        "/tmp/QtCreator-IUfpsL/clang-uiheader-COvFLi",
         "-nostdinc",
         "-nostdinc++",
         "-DNDEBUG",
@@ -742,10 +742,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Piece.h"
+        "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Piece.h"
     ],
     "directory": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/.qtc_clangd",
-    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Piece.h"
+    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Piece.h"
 },
 {
     "arguments": [
@@ -755,7 +755,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-HukyIc/clang-uiheader-RchHIe",
+        "/tmp/QtCreator-IUfpsL/clang-uiheader-COvFLi",
         "-nostdinc",
         "-nostdinc++",
         "-DNDEBUG",
@@ -786,10 +786,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Pawn.h"
+        "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Pawn.h"
     ],
     "directory": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/.qtc_clangd",
-    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Pawn.h"
+    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Pawn.h"
 },
 {
     "arguments": [
@@ -799,7 +799,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-HukyIc/clang-uiheader-RchHIe",
+        "/tmp/QtCreator-IUfpsL/clang-uiheader-COvFLi",
         "-nostdinc",
         "-nostdinc++",
         "-DNDEBUG",
@@ -830,10 +830,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/King.h"
+        "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/King.h"
     ],
     "directory": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/.qtc_clangd",
-    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/King.h"
+    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/King.h"
 },
 {
     "arguments": [
@@ -843,7 +843,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-HukyIc/clang-uiheader-RchHIe",
+        "/tmp/QtCreator-IUfpsL/clang-uiheader-COvFLi",
         "-nostdinc",
         "-nostdinc++",
         "-DNDEBUG",
@@ -874,10 +874,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Queen.h"
+        "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Queen.h"
     ],
     "directory": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/.qtc_clangd",
-    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Queen.h"
+    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Queen.h"
 },
 {
     "arguments": [
@@ -887,7 +887,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-HukyIc/clang-uiheader-RchHIe",
+        "/tmp/QtCreator-IUfpsL/clang-uiheader-COvFLi",
         "-nostdinc",
         "-nostdinc++",
         "-DNDEBUG",
@@ -918,10 +918,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Bishop.h"
+        "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Bishop.h"
     ],
     "directory": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/.qtc_clangd",
-    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Bishop.h"
+    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Bishop.h"
 },
 {
     "arguments": [
@@ -931,7 +931,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-HukyIc/clang-uiheader-RchHIe",
+        "/tmp/QtCreator-IUfpsL/clang-uiheader-COvFLi",
         "-nostdinc",
         "-nostdinc++",
         "-DNDEBUG",
@@ -962,10 +962,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Rook.h"
+        "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Rook.h"
     ],
     "directory": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/.qtc_clangd",
-    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Rook.h"
+    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Rook.h"
 },
 {
     "arguments": [
@@ -975,7 +975,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-HukyIc/clang-uiheader-RchHIe",
+        "/tmp/QtCreator-IUfpsL/clang-uiheader-COvFLi",
         "-nostdinc",
         "-nostdinc++",
         "-DNDEBUG",
@@ -1006,9 +1006,9 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Knight.h"
+        "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Knight.h"
     ],
     "directory": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/build-Chess-Desktop-Release/.qtc_clangd",
-    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/CLI Chess/Chess/Knight.h"
+    "file": "/home/tired_atlas/Desktop/Personal-Projects/C++/Chess/CLI Version/CLI Chess/Chess/Knight.h"
 }
 ]
